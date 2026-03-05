@@ -19,12 +19,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "363698d16fcfa8cdd700525d05d91feff132fae6",
     "author": "ArianaPita-0102",
     "commit": {
       "date": "2026-03-05T13:39:40.000Z",
       "message": "feat: Ingresar cantidad y mostrar en pantalla",
-      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/363698d16fcfa8cdd700525d05d91feff132fae6"
     },
     "stats": {
       "total": 41,
@@ -34,6 +34,25 @@
     },
     "coverage": 100,
     "test_count": 2,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "ArianaPita-0102",
+    "commit": {
+      "date": "2026-03-05T13:54:32.000Z",
+      "message": "feat: agregar precio item",
+      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 42,
+      "additions": 33,
+      "deletions": 9,
+      "date": "2026-03-05"
+    },
+    "coverage": 100,
+    "test_count": 3,
     "failed_tests": 0,
     "conclusion": "success"
   }

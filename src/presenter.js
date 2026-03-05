@@ -1,8 +1,18 @@
+import totalizador from "./totalizador.js";
+
 const boton = document.getElementById("mostrar");
+const botonprecio = document.getElementById("mostrarprecio");
 
 boton.addEventListener("click", () => {
-  const cantidad = document.getElementById("cantidad").value;
+  const cantidad = Number.parseInt(document.getElementById("cantidad").value);
 
   document.getElementById("resultado").textContent =
-    "Cantidad ingresada: " + cantidad;
+    totalizador.mostrarCantidad(cantidad);
+});
+
+botonprecio.addEventListener("click", () => {
+  const precio = Number.parseFloat(document.getElementById("precio").value);
+
+  document.getElementById("resultadoprecio").textContent =
+    totalizador.mostrarPrecioItem(precio);
 });
