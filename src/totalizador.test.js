@@ -9,5 +9,5 @@ test("muestra el precio ingresado", () => {
 });
 
 test("muestra el precio neto", () => {
-  expect(totalizador.mostrarPrecioNeto(5,10)).toEqual("Precio neto: 50");
+  expect(totalizador.mostrarPrecioNeto(5, 10)).toEqual(50);
 });

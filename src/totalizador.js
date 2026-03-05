@@ -7,8 +7,8 @@ const totalizador = {
     return "Precio por item ingresado: " + precio;
   },
 
-  mostrarPrecioNeto(cantidad, precio ) {
-    return "Precio neto: " + cantidad * precio;
+ mostrarPrecioNeto(cantidad, precio) {
+    return cantidad * precio;
   }
 }
 

@@ -98,9 +98,31 @@
     "testId": 3
   },
   {
-    "commitId": "HEAD",
+    "commitId": "483fa23e322b04737953281518527c90ceebd163",
     "commitName": "feat: mostrar precio neto",
     "commitTimestamp": 1772719348566,
     "testId": 3
+  },
+  {
+    "numPassedTests": 3,
+    "failedTests": 1,
+    "numTotalTests": 4,
+    "timestamp": 1772719902855,
+    "success": false,
+    "testId": 4
+  },
+  {
+    "numPassedTests": 4,
+    "failedTests": 0,
+    "numTotalTests": 4,
+    "timestamp": 1772719958647,
+    "success": true,
+    "testId": 4
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix: mostrar precio neto",
+    "commitTimestamp": 1772719993718,
+    "testId": 4
   }
 ]
