@@ -16,9 +16,23 @@
     "testId": 0
   },
   {
-    "commitId": "HEAD",
+    "commitId": "4246093d61c84669dd9160e47f7fedcdee3b33f7",
     "commitName": "feat: Ingresar cantidad de items y mostrar en pantalla lo ingresado",
     "commitTimestamp": 1772717570463,
     "testId": 0
+  },
+  {
+    "numPassedTests": 2,
+    "failedTests": 0,
+    "numTotalTests": 2,
+    "timestamp": 1772717956312,
+    "success": true,
+    "testId": 1
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Ingresar cantidad y mostrar en pantalla",
+    "commitTimestamp": 1772717980507,
+    "testId": 1
   }
 ]
