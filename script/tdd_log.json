@@ -76,9 +76,31 @@
     "testId": 2
   },
   {
-    "commitId": "HEAD",
+    "commitId": "5df84a98cccb6bc218846ee7ea0ad6a7a39005d3",
     "commitName": "feat: agregar precio item",
     "commitTimestamp": 1772718872259,
     "testId": 2
+  },
+  {
+    "numPassedTests": 3,
+    "failedTests": 1,
+    "numTotalTests": 4,
+    "timestamp": 1772719140240,
+    "success": false,
+    "testId": 3
+  },
+  {
+    "numPassedTests": 4,
+    "failedTests": 0,
+    "numTotalTests": 4,
+    "timestamp": 1772719325199,
+    "success": true,
+    "testId": 3
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: mostrar precio neto",
+    "commitTimestamp": 1772719348566,
+    "testId": 3
   }
 ]

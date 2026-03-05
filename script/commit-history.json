@@ -38,12 +38,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "5df84a98cccb6bc218846ee7ea0ad6a7a39005d3",
     "author": "ArianaPita-0102",
     "commit": {
       "date": "2026-03-05T13:54:32.000Z",
       "message": "feat: agregar precio item",
-      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/5df84a98cccb6bc218846ee7ea0ad6a7a39005d3"
     },
     "stats": {
       "total": 42,
@@ -53,6 +53,25 @@
     },
     "coverage": 100,
     "test_count": 3,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "User",
+    "commit": {
+      "date": "2026-03-05T14:02:28.000Z",
+      "message": "feat: mostrar precio neto",
+      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 8,
+      "deletions": 0,
+      "date": "2026-03-05"
+    },
+    "coverage": 100,
+    "test_count": 4,
     "failed_tests": 0,
     "conclusion": "success"
   }

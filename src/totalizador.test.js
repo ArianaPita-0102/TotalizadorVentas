@@ -7,3 +7,7 @@ test("muestra la cantidad ingresada", () => {
 test("muestra el precio ingresado", () => {
   expect(totalizador.mostrarPrecioItem(10)).toEqual("Precio por item ingresado: 10");
 });
+
+test("muestra el precio neto", () => {
+  expect(totalizador.mostrarPrecioNeto(5,10)).toEqual("Precio neto: 50");
+});
