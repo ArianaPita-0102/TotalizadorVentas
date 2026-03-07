@@ -37,4 +37,8 @@ describe("Totalizador", () => {
   expect(totalizador.mostrarTotalConImpuesto(5, 10, "CA")).toEqual(54.125);
   });
 
+  it("deberia mostrar el precio total con impuesto para AL", () => {
+  expect(totalizador.mostrarTotalConImpuesto(5, 10, "AL")).toEqual(52);
+  });
+
 });

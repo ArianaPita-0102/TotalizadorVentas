@@ -238,9 +238,23 @@
     "testId": 8
   },
   {
-    "commitId": "HEAD",
+    "commitId": "c3d35b7475271a14a58c13d8962ba39d72bd704e",
     "commitName": "feat: mostrar precio total con impuesto según estado(Ca)",
     "commitTimestamp": 1772920647116,
     "testId": 9
+  },
+  {
+    "numPassedTests": 11,
+    "failedTests": 0,
+    "numTotalTests": 11,
+    "timestamp": 1772920890713,
+    "success": true,
+    "testId": 10
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: calcular precio neto con impuesto AL",
+    "commitTimestamp": 1772921011595,
+    "testId": 10
   }
 ]

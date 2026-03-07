@@ -171,12 +171,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "c3d35b7475271a14a58c13d8962ba39d72bd704e",
     "author": "User",
     "commit": {
       "date": "2026-03-07T21:57:26.000Z",
       "message": "feat: mostrar precio total con impuesto según estado(Ca)",
-      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/c3d35b7475271a14a58c13d8962ba39d72bd704e"
     },
     "stats": {
       "total": 8,
@@ -186,6 +186,25 @@
     },
     "coverage": 100,
     "test_count": 10,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "ArianaPita-0102",
+    "commit": {
+      "date": "2026-03-07T22:03:31.000Z",
+      "message": "feat: calcular precio neto con impuesto AL",
+      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 4,
+      "additions": 4,
+      "deletions": 0,
+      "date": "2026-03-07"
+    },
+    "coverage": 100,
+    "test_count": 11,
     "failed_tests": 0,
     "conclusion": "success"
   }
