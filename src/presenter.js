@@ -14,7 +14,7 @@ boton.addEventListener("click", () => {
   document.querySelector("#textoImpuesto").textContent =
   "Impuesto para " + estado + " (%" + impuesto + ")";
 
-  document.querySelector("#resultadoImpuesto").textContent = impuesto;
+  document.querySelector("#resultadoImpuesto").textContent = precioNeto * impuesto / 100;
 
   const totalConImpuesto = precioNeto + (precioNeto * impuesto / 100);
   document.querySelector("#resultadoTotal").textContent = totalConImpuesto;

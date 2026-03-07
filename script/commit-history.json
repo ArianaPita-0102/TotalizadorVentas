@@ -247,17 +247,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "880d77a79e6789fcecacebf693cf03c70490bd74",
     "author": "User",
     "commit": {
       "date": "2026-03-07T22:11:31.000Z",
       "message": "feat: calcular precio neto con impuesto de TX",
-      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/880d77a79e6789fcecacebf693cf03c70490bd74"
     },
     "stats": {
       "total": 3,
       "additions": 3,
       "deletions": 0,
+      "date": "2026-03-07"
+    },
+    "coverage": 100,
+    "test_count": 14,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "ArianaPita-0102",
+    "commit": {
+      "date": "2026-03-07T22:19:29.000Z",
+      "message": "fix: mostrar la cantidad de descuento en base al precio neto en pantalla",
+      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 2,
+      "additions": 1,
+      "deletions": 1,
       "date": "2026-03-07"
     },
     "coverage": 100,

@@ -294,9 +294,15 @@
     "testId": 13
   },
   {
-    "commitId": "HEAD",
+    "commitId": "880d77a79e6789fcecacebf693cf03c70490bd74",
     "commitName": "feat: calcular precio neto con impuesto de TX",
     "commitTimestamp": 1772921491894,
     "testId": 13
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix: mostrar la cantidad de descuento en base al precio neto en pantalla",
+    "commitTimestamp": 1772921970160,
+    "testId": 14
   }
 ]
