@@ -380,16 +380,35 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "e3ecd5f23d52567d9e7ff12f36074dbf501fa855",
     "author": "User",
     "commit": {
       "date": "2026-03-07T23:14:23.000Z",
       "message": "mostrar  el estado por defecto pot CA",
-      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/e3ecd5f23d52567d9e7ff12f36074dbf501fa855"
     },
     "stats": {
       "total": 2,
       "additions": 1,
+      "deletions": 1,
+      "date": "2026-03-07"
+    },
+    "coverage": 100,
+    "test_count": 24,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "User",
+    "commit": {
+      "date": "2026-03-07T23:16:47.000Z",
+      "message": "fix: mostrar la lista de estados disponibles",
+      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 7,
       "deletions": 1,
       "date": "2026-03-07"
     },
