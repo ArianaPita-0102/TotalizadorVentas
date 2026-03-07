@@ -232,9 +232,15 @@
     "testId": 8
   },
   {
-    "commitId": "HEAD",
+    "commitId": "90af4c01c9d28f8e1decb989cc5602823ea24649",
     "commitName": "feat: Mostrar el precio total con el valor del impuesto según el precio neto y el porcentaje de CA",
     "commitTimestamp": 1772920318837,
     "testId": 8
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: mostrar precio total con impuesto según estado(Ca)",
+    "commitTimestamp": 1772920647116,
+    "testId": 9
   }
 ]

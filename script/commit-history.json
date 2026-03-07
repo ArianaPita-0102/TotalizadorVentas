@@ -152,17 +152,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "90af4c01c9d28f8e1decb989cc5602823ea24649",
     "author": "User",
     "commit": {
       "date": "2026-03-07T21:51:58.000Z",
       "message": "feat: Mostrar el precio total con el valor del impuesto según el precio neto y el porcentaje de CA",
-      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/90af4c01c9d28f8e1decb989cc5602823ea24649"
     },
     "stats": {
       "total": 13,
       "additions": 12,
       "deletions": 1,
+      "date": "2026-03-07"
+    },
+    "coverage": 100,
+    "test_count": 10,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "User",
+    "commit": {
+      "date": "2026-03-07T21:57:26.000Z",
+      "message": "feat: mostrar precio total con impuesto según estado(Ca)",
+      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 8,
+      "deletions": 0,
       "date": "2026-03-07"
     },
     "coverage": 100,
