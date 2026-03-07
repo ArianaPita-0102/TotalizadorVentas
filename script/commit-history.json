@@ -342,17 +342,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "1ba5a24a2f6837a2d095c1faa8b16f57071275d6",
     "author": "ArianaPita-0102",
     "commit": {
       "date": "2026-03-07T23:02:56.000Z",
       "message": "feaet: muestra porcentake de descuento para precios mayores a 30000",
-      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/1ba5a24a2f6837a2d095c1faa8b16f57071275d6"
     },
     "stats": {
       "total": 40,
       "additions": 34,
       "deletions": 6,
+      "date": "2026-03-07"
+    },
+    "coverage": 100,
+    "test_count": 24,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "ArianaPita-0102",
+    "commit": {
+      "date": "2026-03-07T23:08:38.000Z",
+      "message": "feat: precio total con descuento e impuesto",
+      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 4,
+      "additions": 2,
+      "deletions": 2,
       "date": "2026-03-07"
     },
     "coverage": 100,

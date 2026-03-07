@@ -428,9 +428,15 @@
     "testId": 18
   },
   {
-    "commitId": "HEAD",
+    "commitId": "1ba5a24a2f6837a2d095c1faa8b16f57071275d6",
     "commitName": "feaet: muestra porcentake de descuento para precios mayores a 30000",
     "commitTimestamp": 1772924576916,
     "testId": 18
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: precio total con descuento e impuesto",
+    "commitTimestamp": 1772924918827,
+    "testId": 19
   }
 ]

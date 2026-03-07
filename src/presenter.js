@@ -20,7 +20,7 @@ boton.addEventListener("click", () => {
   document.querySelector("#resultadoDescuento").textContent = descuento;
   document.querySelector("#resultadoImpuesto").textContent = precioNeto * impuesto / 100;
 
-  const totalConImpuesto = precioNeto + (precioNeto * impuesto / 100);
+  const totalConImpuesto = precioNeto + (precioNeto * impuesto / 100) - descuento;
   document.querySelector("#resultadoTotal").textContent = totalConImpuesto;
 });
 
