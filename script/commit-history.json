@@ -475,12 +475,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "28edb0d1ac43bc6c3b7f392d3a5b14511e103879",
     "author": "User",
     "commit": {
       "date": "2026-03-07T23:47:51.000Z",
       "message": "feat: mostrar el impuesto adicional de bebdas alcoholicas",
-      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/28edb0d1ac43bc6c3b7f392d3a5b14511e103879"
     },
     "stats": {
       "total": 4,
@@ -490,6 +490,25 @@
     },
     "coverage": 100,
     "test_count": 26,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "User",
+    "commit": {
+      "date": "2026-03-07T23:50:10.000Z",
+      "message": "feat: mostrar el impuesto adicional de material de escritorio,muebles,electronicos",
+      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 12,
+      "additions": 12,
+      "deletions": 0,
+      "date": "2026-03-07"
+    },
+    "coverage": 100,
+    "test_count": 29,
     "failed_tests": 0,
     "conclusion": "success"
   }

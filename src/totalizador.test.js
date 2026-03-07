@@ -102,4 +102,16 @@ describe("Totalizador", () => {
     expect(totalizador.obtenerImpuestoAdicionalCategoria("Bebidas alcohólicas")).toEqual(7);
   });
 
+  it("deberia mostrar el impuesto adicional de 0% para categoria Material de escritorio", () => {
+    expect(totalizador.obtenerImpuestoAdicionalCategoria("Material de escritorio")).toEqual(0);
+  });
+
+  it("deberia mostrar el impuesto adicional de 3% para categoria Muebles", () => {
+    expect(totalizador.obtenerImpuestoAdicionalCategoria("Muebles")).toEqual(3);
+  });
+
+  it("deberia mostrar el impuesto adicional de 4% para categoria Electrónicos", () => {
+    expect(totalizador.obtenerImpuestoAdicionalCategoria("Electrónicos")).toEqual(4);
+  });
+
 });
