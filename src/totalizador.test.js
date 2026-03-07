@@ -61,4 +61,12 @@ describe("Totalizador", () => {
     expect(totalizador.obtenerPorcentajeDescuento(1200)).toEqual(3);
   });
 
+  it("no deberia aplicar descuento del 5% si el precio neto es menor o igual a 3000'", () => {
+    expect(totalizador.obtenerPorcentajeDescuento(2500)).toEqual(3);
+  });
+
+  it("deberia aplicar descuento del 5% si el precio neto es mayor a 3000", () => {
+    expect(totalizador.obtenerPorcentajeDescuento(3500)).toEqual(5);
+  });
+
 });

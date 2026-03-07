@@ -285,12 +285,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "2bdc197d34a004274cc306c4f2debaad01ddf468",
     "author": "ArianaPita-0102",
     "commit": {
       "date": "2026-03-07T22:27:44.000Z",
       "message": "feat: muestra porcentaje de descuento para precios mayores o iguales  a 1000",
-      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/2bdc197d34a004274cc306c4f2debaad01ddf468"
     },
     "stats": {
       "total": 44,
@@ -300,6 +300,25 @@
     },
     "coverage": 100,
     "test_count": 16,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "User",
+    "commit": {
+      "date": "2026-03-07T22:41:37.000Z",
+      "message": "feat : muestra  porcentaje de descuento para precios mayores o iguales a 3000",
+      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 11,
+      "additions": 11,
+      "deletions": 0,
+      "date": "2026-03-07"
+    },
+    "coverage": 100,
+    "test_count": 18,
     "failed_tests": 0,
     "conclusion": "success"
   }
