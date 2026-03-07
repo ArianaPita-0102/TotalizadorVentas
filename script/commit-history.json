@@ -114,12 +114,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "64a2f5fd32b300d456311fd3613e605638388428",
     "author": "ArianaPita-0102",
     "commit": {
       "date": "2026-03-07T21:23:11.000Z",
       "message": "refactor: reorganiza totalizador, presenter y html",
-      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/64a2f5fd32b300d456311fd3613e605638388428"
     },
     "stats": {
       "total": 94,
@@ -129,6 +129,25 @@
     },
     "coverage": 100,
     "test_count": 4,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "ArianaPita-0102",
+    "commit": {
+      "date": "2026-03-07T21:34:41.000Z",
+      "message": "feat: muestra el porcentaje de impuesto segun el codigo de estado",
+      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 50,
+      "additions": 50,
+      "deletions": 0,
+      "date": "2026-03-07"
+    },
+    "coverage": 100,
+    "test_count": 9,
     "failed_tests": 0,
     "conclusion": "success"
   }

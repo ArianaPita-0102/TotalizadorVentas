@@ -156,9 +156,55 @@
     "testId": 6
   },
   {
-    "commitId": "HEAD",
+    "commitId": "64a2f5fd32b300d456311fd3613e605638388428",
     "commitName": "refactor: reorganiza totalizador, presenter y html",
     "commitTimestamp": 1772918591418,
     "testId": 6
+  },
+  {
+    "numPassedTests": 4,
+    "failedTests": 1,
+    "numTotalTests": 5,
+    "timestamp": 1772918796248,
+    "success": false,
+    "testId": 7
+  },
+  {
+    "numPassedTests": 4,
+    "failedTests": 5,
+    "numTotalTests": 9,
+    "timestamp": 1772918982323,
+    "success": false,
+    "testId": 7
+  },
+  {
+    "numPassedTests": 4,
+    "failedTests": 5,
+    "numTotalTests": 9,
+    "timestamp": 1772919131091,
+    "success": false,
+    "testId": 7
+  },
+  {
+    "numPassedTests": 8,
+    "failedTests": 1,
+    "numTotalTests": 9,
+    "timestamp": 1772919170546,
+    "success": false,
+    "testId": 7
+  },
+  {
+    "numPassedTests": 9,
+    "failedTests": 0,
+    "numTotalTests": 9,
+    "timestamp": 1772919183366,
+    "success": true,
+    "testId": 7
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: muestra el porcentaje de impuesto segun el codigo de estado",
+    "commitTimestamp": 1772919281704,
+    "testId": 7
   }
 ]

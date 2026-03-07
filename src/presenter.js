@@ -5,8 +5,14 @@ const boton = document.querySelector("#totalizar");
 boton.addEventListener("click", () => {
   const cantidad = Number(document.querySelector("#cantidad").value);
   const precio = Number(document.querySelector("#precio").value);
+  const estado = document.querySelector("#estado").value;
 
   const precioNeto = totalizador.mostrarPrecioNeto(cantidad, precio);
+  const impuesto = totalizador.mostrarImpuestoEstado(estado);
 
   document.querySelector("#resultadoNeto").textContent = precioNeto;
+  document.querySelector("#textoImpuesto").textContent =
+  "Impuesto para " + estado + " (%" + impuesto + ")";
+
+  document.querySelector("#resultadoImpuesto").textContent = impuesto;
 });
