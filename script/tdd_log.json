@@ -498,9 +498,15 @@
     "testId": 23
   },
   {
-    "commitId": "HEAD",
+    "commitId": "ce0b3ef3f17c17d6cec3e98bd3a259de296f3b6f",
     "commitName": "feat: Mostrar el precio total con el impuesto adicional de 0% para categoría Alimentos",
     "commitTimestamp": 1772926227298,
     "testId": 23
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Mostrar el impuesto adicional según la categoría de producto seleccionada",
+    "commitTimestamp": 1772926925009,
+    "testId": 24
   }
 ]

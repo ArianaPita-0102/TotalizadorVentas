@@ -6,10 +6,13 @@ boton.addEventListener("click", () => {
   const cantidad = Number(document.querySelector("#cantidad").value);
   const precio = Number(document.querySelector("#precio").value);
   const estado = document.querySelector("#estado").value;
+  const categoria = document.querySelector("#categoria").value;
 
   const precioNeto = totalizador.mostrarPrecioNeto(cantidad, precio);
   const impuesto = totalizador.mostrarImpuestoEstado(estado);
   const porcentajeDescuento =  totalizador.obtenerPorcentajeDescuento(precioNeto);
+  const impuestoAdicional = totalizador.obtenerImpuestoAdicionalCategoria(categoria);
+
 
   const descuento = (precioNeto * porcentajeDescuento) / 100;
 
@@ -22,6 +25,10 @@ boton.addEventListener("click", () => {
 
   const totalConImpuesto = precioNeto + (precioNeto * impuesto / 100) - descuento;
   document.querySelector("#resultadoTotal").textContent = totalConImpuesto;
+
+  document.querySelector("#textoImpuestoAdicional").textContent = "Impuesto adicional para " + categoria + " (%" + impuestoAdicional + ")";
+  document.querySelector("#resultadoImpuestoAdicional").textContent = precioNeto * impuestoAdicional / 100;
+
 });
 
 

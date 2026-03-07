@@ -437,16 +437,35 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "ce0b3ef3f17c17d6cec3e98bd3a259de296f3b6f",
     "author": "User",
     "commit": {
       "date": "2026-03-07T23:30:26.000Z",
       "message": "feat: Mostrar el precio total con el impuesto adicional de 0% para categoría Alimentos",
-      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/ce0b3ef3f17c17d6cec3e98bd3a259de296f3b6f"
     },
     "stats": {
       "total": 17,
       "additions": 17,
+      "deletions": 0,
+      "date": "2026-03-07"
+    },
+    "coverage": 100,
+    "test_count": 25,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "User",
+    "commit": {
+      "date": "2026-03-07T23:42:04.000Z",
+      "message": "feat: Mostrar el impuesto adicional según la categoría de producto seleccionada",
+      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 14,
       "deletions": 0,
       "date": "2026-03-07"
     },
