@@ -9,7 +9,7 @@ describe("Totalizador", () => {
     expect(totalizador.mostrarPrecioItem(10)).toEqual(10);
   });
 
-  it("Deberia mostrar el precio netro", () => {
+  it("Deberia mostrar el precio neto", () => {
     expect(totalizador.mostrarPrecioNeto(5, 10)).toEqual(50);
   });
 
@@ -32,4 +32,9 @@ describe("Totalizador", () => {
   it("deberia devolver el impuesto para CA", () => {
     expect(totalizador.mostrarImpuestoEstado("CA")).toEqual(8.25);
   });
+
+  it("deberia mostrar el precio total con impuesto para CA", () => {
+  expect(totalizador.mostrarTotalConImpuesto(5, 10, "CA")).toEqual(54.125);
+  });
+
 });

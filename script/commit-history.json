@@ -133,12 +133,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "1ce6a2ab48c9dbc153a7100ae4734b9b5ec84143",
     "author": "ArianaPita-0102",
     "commit": {
       "date": "2026-03-07T21:34:41.000Z",
       "message": "feat: muestra el porcentaje de impuesto segun el codigo de estado",
-      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/1ce6a2ab48c9dbc153a7100ae4734b9b5ec84143"
     },
     "stats": {
       "total": 50,
@@ -148,6 +148,25 @@
     },
     "coverage": 100,
     "test_count": 9,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "User",
+    "commit": {
+      "date": "2026-03-07T21:51:58.000Z",
+      "message": "feat: Mostrar el precio total con el valor del impuesto según el precio neto y el porcentaje de CA",
+      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 13,
+      "additions": 12,
+      "deletions": 1,
+      "date": "2026-03-07"
+    },
+    "coverage": 100,
+    "test_count": 10,
     "failed_tests": 0,
     "conclusion": "success"
   }

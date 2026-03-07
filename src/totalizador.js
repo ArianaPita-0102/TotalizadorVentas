@@ -21,6 +21,12 @@ const totalizador = {
     };
 
     return impuestos[estado];
+  },
+
+  mostrarTotalConImpuesto(cantidad, precio, estado) {
+    const precioNeto = cantidad * precio;
+    const impuesto = totalizador.mostrarImpuestoEstado(estado);
+    return precioNeto + (precioNeto * impuesto / 100);
   }
 }
 
