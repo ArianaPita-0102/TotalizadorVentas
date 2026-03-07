@@ -524,9 +524,15 @@
     "testId": 25
   },
   {
-    "commitId": "HEAD",
+    "commitId": "3cb8f1b7917b3a79a10baff2f5482eb212c20ea9",
     "commitName": "feat: mostrar el impuesto adicional de material de escritorio,muebles,electronicos",
     "commitTimestamp": 1772927411522,
     "testId": 26
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: mostrar el impuesto adicional de vestimenta y varios",
+    "commitTimestamp": 1772927457155,
+    "testId": 27
   }
 ]

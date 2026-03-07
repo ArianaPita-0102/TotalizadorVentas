@@ -494,12 +494,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "3cb8f1b7917b3a79a10baff2f5482eb212c20ea9",
     "author": "User",
     "commit": {
       "date": "2026-03-07T23:50:10.000Z",
       "message": "feat: mostrar el impuesto adicional de material de escritorio,muebles,electronicos",
-      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/3cb8f1b7917b3a79a10baff2f5482eb212c20ea9"
     },
     "stats": {
       "total": 12,
@@ -509,6 +509,25 @@
     },
     "coverage": 100,
     "test_count": 29,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "User",
+    "commit": {
+      "date": "2026-03-07T23:50:56.000Z",
+      "message": "feat: mostrar el impuesto adicional de vestimenta y varios",
+      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 8,
+      "deletions": 0,
+      "date": "2026-03-07"
+    },
+    "coverage": 100,
+    "test_count": 31,
     "failed_tests": 0,
     "conclusion": "success"
   }

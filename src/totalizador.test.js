@@ -114,4 +114,12 @@ describe("Totalizador", () => {
     expect(totalizador.obtenerImpuestoAdicionalCategoria("Electrónicos")).toEqual(4);
   });
 
+  it("deberia mostrar el impuesto adicional de 2% para categoria Vestimenta", () => {
+    expect(totalizador.obtenerImpuestoAdicionalCategoria("Vestimenta")).toEqual(2);
+  });
+
+  it("deberia mostrar el impuesto adicional de 0% para categoria Varios", () => {
+    expect(totalizador.obtenerImpuestoAdicionalCategoria("Varios")).toEqual(0);
+  });
+
 });
