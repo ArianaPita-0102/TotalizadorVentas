@@ -122,4 +122,8 @@ describe("Totalizador", () => {
     expect(totalizador.obtenerImpuestoAdicionalCategoria("Varios")).toEqual(0);
   });
 
+  it("deberia mostrar el descuento adicional de 2% para categoria Alimentos", () => {
+    expect(totalizador.obtenerDescuentoAdicionalCategoria("Alimentos")).toEqual(2);
+  });
+
 });

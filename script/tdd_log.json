@@ -530,9 +530,31 @@
     "testId": 26
   },
   {
-    "commitId": "HEAD",
+    "commitId": "dac430576305de08c85f7a23f665f27b934e43f0",
     "commitName": "feat: mostrar el impuesto adicional de vestimenta y varios",
     "commitTimestamp": 1772927457155,
     "testId": 27
+  },
+  {
+    "numPassedTests": 31,
+    "failedTests": 1,
+    "numTotalTests": 32,
+    "timestamp": 1772927574443,
+    "success": false,
+    "testId": 28
+  },
+  {
+    "numPassedTests": 32,
+    "failedTests": 0,
+    "numTotalTests": 32,
+    "timestamp": 1772927599135,
+    "success": true,
+    "testId": 28
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Mostrar el precio total con el descuento adicional de 2% para categoría alimentos",
+    "commitTimestamp": 1772927639550,
+    "testId": 28
   }
 ]

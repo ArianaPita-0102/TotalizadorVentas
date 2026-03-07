@@ -513,12 +513,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "dac430576305de08c85f7a23f665f27b934e43f0",
     "author": "User",
     "commit": {
       "date": "2026-03-07T23:50:56.000Z",
       "message": "feat: mostrar el impuesto adicional de vestimenta y varios",
-      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/dac430576305de08c85f7a23f665f27b934e43f0"
     },
     "stats": {
       "total": 8,
@@ -528,6 +528,25 @@
     },
     "coverage": 100,
     "test_count": 31,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "User",
+    "commit": {
+      "date": "2026-03-07T23:53:59.000Z",
+      "message": "feat: Mostrar el precio total con el descuento adicional de 2% para categoría alimentos",
+      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 11,
+      "additions": 11,
+      "deletions": 0,
+      "date": "2026-03-07"
+    },
+    "coverage": 96.15,
+    "test_count": 32,
     "failed_tests": 0,
     "conclusion": "success"
   }

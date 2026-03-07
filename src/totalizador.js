@@ -65,6 +65,13 @@ const totalizador = {
       Varios: 0
     };
     return impuestosAdicionales[categoria];
+  },
+
+  obtenerDescuentoAdicionalCategoria(categoria) {
+    if (categoria === "Alimentos") {
+      return 2;
+    }
+    return 0;
   }
 }
 
