@@ -52,6 +52,19 @@ const totalizador = {
     
     
     return 0;
+  },
+
+  obtenerImpuestoAdicionalCategoria(categoria) {
+    const impuestosAdicionales = {
+      Alimentos: 0,
+      "Bebidas alcohólicas": 7,
+      "Material de escritorio": 0,
+      Muebles: 3,
+      Electrónicos: 4,
+      Vestimenta: 2,
+      Varios: 0
+    };
+    return impuestosAdicionales[categoria];
   }
 }
 

@@ -476,9 +476,31 @@
     "testId": 22
   },
   {
-    "commitId": "HEAD",
+    "commitId": "ae7f87125ad698adc2cf8bc69c5a4e648e9d35c7",
     "commitName": "feat: Mostrar la lista de categorías disponibles",
     "commitTimestamp": 1772925863665,
     "testId": 22
+  },
+  {
+    "numPassedTests": 24,
+    "failedTests": 1,
+    "numTotalTests": 25,
+    "timestamp": 1772926173525,
+    "success": false,
+    "testId": 23
+  },
+  {
+    "numPassedTests": 25,
+    "failedTests": 0,
+    "numTotalTests": 25,
+    "timestamp": 1772926191704,
+    "success": true,
+    "testId": 23
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Mostrar el precio total con el impuesto adicional de 0% para categoría Alimentos",
+    "commitTimestamp": 1772926227298,
+    "testId": 23
   }
 ]

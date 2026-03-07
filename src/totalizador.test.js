@@ -94,4 +94,8 @@ describe("Totalizador", () => {
     expect(totalizador.obtenerPorcentajeDescuento(30001)).toEqual(15);
   });
 
+  it("deberia mostrar el impuesto adicional de 0% para categoria Alimentos", () => {
+    expect(totalizador.obtenerImpuestoAdicionalCategoria("Alimentos")).toEqual(0);
+  });
+
 });
