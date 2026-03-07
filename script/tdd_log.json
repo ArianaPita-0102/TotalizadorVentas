@@ -266,9 +266,23 @@
     "testId": 11
   },
   {
-    "commitId": "HEAD",
+    "commitId": "6f1efbd92e1304755aaa1a0796cf031c64a9ac43",
     "commitName": "feat: calcular precio neto con impuesto NV",
     "commitTimestamp": 1772921099778,
     "testId": 11
+  },
+  {
+    "numPassedTests": 13,
+    "failedTests": 0,
+    "numTotalTests": 13,
+    "timestamp": 1772921212089,
+    "success": true,
+    "testId": 12
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: calcular precio neto con impuesto de estado UT",
+    "commitTimestamp": 1772921238177,
+    "testId": 12
   }
 ]

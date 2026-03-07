@@ -45,5 +45,9 @@ describe("Totalizador", () => {
   expect(totalizador.mostrarTotalConImpuesto(5, 10, "NV")).toEqual(54);
   });
 
+  it("deberia mostrar el precio total con impuesto para UT", () => {
+  expect(totalizador.mostrarTotalConImpuesto(5, 10, "UT")).toEqual(53.325);
+  });
+
 
 });
