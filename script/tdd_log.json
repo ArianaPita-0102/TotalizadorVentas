@@ -252,9 +252,23 @@
     "testId": 10
   },
   {
-    "commitId": "HEAD",
+    "commitId": "e518def46e86eb3628408ba20377bcea55c96dda",
     "commitName": "feat: calcular precio neto con impuesto AL",
     "commitTimestamp": 1772921011595,
     "testId": 10
+  },
+  {
+    "numPassedTests": 12,
+    "failedTests": 0,
+    "numTotalTests": 12,
+    "timestamp": 1772921089428,
+    "success": true,
+    "testId": 11
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: calcular precio neto con impuesto NV",
+    "commitTimestamp": 1772921099778,
+    "testId": 11
   }
 ]
