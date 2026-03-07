@@ -399,17 +399,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "5f2a24c0da32cfc0d1c17155e60d3c3c94c7b370",
     "author": "User",
     "commit": {
       "date": "2026-03-07T23:16:47.000Z",
       "message": "fix: mostrar la lista de estados disponibles",
-      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/5f2a24c0da32cfc0d1c17155e60d3c3c94c7b370"
     },
     "stats": {
       "total": 8,
       "additions": 7,
       "deletions": 1,
+      "date": "2026-03-07"
+    },
+    "coverage": 100,
+    "test_count": 24,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "User",
+    "commit": {
+      "date": "2026-03-07T23:24:22.000Z",
+      "message": "feat: Mostrar la lista de categorías disponibles",
+      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 15,
+      "additions": 15,
+      "deletions": 0,
       "date": "2026-03-07"
     },
     "coverage": 100,

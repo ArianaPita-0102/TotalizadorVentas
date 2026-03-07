@@ -462,9 +462,23 @@
     "testId": 21
   },
   {
-    "commitId": "HEAD",
+    "commitId": "5f2a24c0da32cfc0d1c17155e60d3c3c94c7b370",
     "commitName": "fix: mostrar la lista de estados disponibles",
     "commitTimestamp": 1772925409166,
     "testId": 21
+  },
+  {
+    "numPassedTests": 24,
+    "failedTests": 0,
+    "numTotalTests": 24,
+    "timestamp": 1772925792607,
+    "success": true,
+    "testId": 22
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Mostrar la lista de categorías disponibles",
+    "commitTimestamp": 1772925863665,
+    "testId": 22
   }
 ]
