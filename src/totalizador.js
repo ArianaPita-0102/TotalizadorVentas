@@ -31,6 +31,9 @@ const totalizador = {
 
 
   obtenerPorcentajeDescuento(precioNeto) {
+    if (precioNeto >=7000) {
+      return 7;
+    }
     if (precioNeto >= 3000) {
       return 5;
     }
