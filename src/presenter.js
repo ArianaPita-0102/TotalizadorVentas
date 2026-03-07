@@ -1,29 +1,12 @@
 import totalizador from "./totalizador.js";
 
-const boton = document.getElementById("mostrar");
-const botonprecio = document.getElementById("mostrarprecio");
-const botonneto= document.getElementById("mostrarprecioneto");
+const boton = document.querySelector("#totalizar");
 
 boton.addEventListener("click", () => {
-  const cantidad = Number.parseInt(document.getElementById("cantidad").value);
+  const cantidad = Number(document.querySelector("#cantidad").value);
+  const precio = Number(document.querySelector("#precio").value);
 
-  document.getElementById("resultado").textContent =
-    totalizador.mostrarCantidad(cantidad);
-});
+  const precioNeto = totalizador.mostrarPrecioNeto(cantidad, precio);
 
-botonprecio.addEventListener("click", () => {
-  const precio = Number.parseFloat(document.getElementById("precio").value);
-
-  document.getElementById("resultadoprecio").textContent =
-    totalizador.mostrarPrecioItem(precio);
-});
-
-botonneto.addEventListener("click", () => {
-  const cantidad = Number.parseInt(document.getElementById("cantidad").value);
-  const precio = Number.parseFloat(document.getElementById("precio").value);
-
-  const neto = totalizador.mostrarPrecioNeto(cantidad, precio);
-
-  document.getElementById("resultadoneto").textContent =
-    "Precio neto: " + neto;
+  document.querySelector("#resultadoNeto").textContent = precioNeto;
 });

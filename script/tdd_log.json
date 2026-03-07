@@ -142,9 +142,23 @@
     "testId": 5
   },
   {
-    "commitId": "HEAD",
+    "commitId": "50d2bce430415bd3e699bb2fbce0d0b375907387",
     "commitName": "Refactor tests to use describe/it structure instead of individual tests",
     "commitTimestamp": 1772917514539,
     "testId": 5
+  },
+  {
+    "numPassedTests": 4,
+    "failedTests": 0,
+    "numTotalTests": 4,
+    "timestamp": 1772918531998,
+    "success": true,
+    "testId": 6
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor: reorganiza totalizador, presenter y html",
+    "commitTimestamp": 1772918591418,
+    "testId": 6
   }
 ]

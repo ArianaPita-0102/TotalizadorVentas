@@ -95,17 +95,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "50d2bce430415bd3e699bb2fbce0d0b375907387",
     "author": "ArianaPita-0102",
     "commit": {
       "date": "2026-03-07T21:05:14.000Z",
       "message": "Refactor tests to use describe/it structure instead of individual tests",
-      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/50d2bce430415bd3e699bb2fbce0d0b375907387"
     },
     "stats": {
       "total": 20,
       "additions": 11,
       "deletions": 9,
+      "date": "2026-03-07"
+    },
+    "coverage": 100,
+    "test_count": 4,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "ArianaPita-0102",
+    "commit": {
+      "date": "2026-03-07T21:23:11.000Z",
+      "message": "refactor: reorganiza totalizador, presenter y html",
+      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 94,
+      "additions": 47,
+      "deletions": 47,
       "date": "2026-03-07"
     },
     "coverage": 100,

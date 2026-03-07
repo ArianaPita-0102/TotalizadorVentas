@@ -1,28 +1,45 @@
 <!DOCTYPE html>
-<html xml:lang="es">
-  <head>
-    <title>Sumador</title>
-  </head>
-  <body>
-    <h1>Totalizador de Ventas</h1>
-    
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Totalizador</title>
+</head>
 
-      <label>Cantidad de items</label>
+<body>
+
+<h1>Totalizador</h1>
+
+<table>
+
+  <tr>
+    <td>Cantidad</td>
+    <td>
       <input type="number" id="cantidad">
-      <button id="mostrar">Ingresar</button>
+    </td>
+  </tr>
 
-      <p id="resultado"></p>
-
-      <label>Precio de item</label>
+  <tr>
+    <td>Precio</td>
+    <td>
       <input type="number" id="precio">
-      <button id="mostrarprecio">Ingresar</button>
+    </td>
+  </tr>
 
-      <p id="resultadoprecio"></p>
+  <tr>
+    <td></td>
+    <td>
+      <button id="totalizar">Totalizar</button>
+    </td>
+  </tr>
 
-      <label>Precio neto</label>
-      <button id="mostrarprecioneto">Calcular precio neto</button>
-      <p id="resultadoneto"></p>
+  <tr>
+    <td>Precio Neto</td>
+    <td id="resultadoNeto"></td>
+  </tr>
 
-    <script type="module" src="./src/presenter.js"></script>
-  </body>
+</table>
+
+<script type="module" src="./src/presenter.js"></script>
+
+</body>
 </html>
