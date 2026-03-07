@@ -434,9 +434,15 @@
     "testId": 18
   },
   {
-    "commitId": "HEAD",
+    "commitId": "d604850193424e3e8ca6ab3e7e6056ea82fe7c5a",
     "commitName": "feat: precio total con descuento e impuesto",
     "commitTimestamp": 1772924918827,
     "testId": 19
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "mostrar  el estado por defecto pot CA",
+    "commitTimestamp": 1772925264633,
+    "testId": 20
   }
 ]

@@ -361,17 +361,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "d604850193424e3e8ca6ab3e7e6056ea82fe7c5a",
     "author": "ArianaPita-0102",
     "commit": {
       "date": "2026-03-07T23:08:38.000Z",
       "message": "feat: precio total con descuento e impuesto",
-      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/d604850193424e3e8ca6ab3e7e6056ea82fe7c5a"
     },
     "stats": {
       "total": 4,
       "additions": 2,
       "deletions": 2,
+      "date": "2026-03-07"
+    },
+    "coverage": 100,
+    "test_count": 24,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "User",
+    "commit": {
+      "date": "2026-03-07T23:14:23.000Z",
+      "message": "mostrar  el estado por defecto pot CA",
+      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 2,
+      "additions": 1,
+      "deletions": 1,
       "date": "2026-03-07"
     },
     "coverage": 100,
