@@ -358,9 +358,79 @@
     "testId": 17
   },
   {
-    "commitId": "HEAD",
+    "commitId": "f6df054dc186e3a9c21053b1f318db3af9ddd1ea",
     "commitName": "feat: muestra porcentaje de descuento para precios mayores o iguales a 7000",
     "commitTimestamp": 1772923562698,
     "testId": 17
+  },
+  {
+    "numPassedTests": 20,
+    "failedTests": 2,
+    "numTotalTests": 22,
+    "timestamp": 1772924069978,
+    "success": false,
+    "testId": 18
+  },
+  {
+    "numPassedTests": 17,
+    "failedTests": 5,
+    "numTotalTests": 22,
+    "timestamp": 1772924135458,
+    "success": false,
+    "testId": 18
+  },
+  {
+    "numPassedTests": 17,
+    "failedTests": 5,
+    "numTotalTests": 22,
+    "timestamp": 1772924176717,
+    "success": false,
+    "testId": 18
+  },
+  {
+    "numPassedTests": 22,
+    "failedTests": 0,
+    "numTotalTests": 22,
+    "timestamp": 1772924384592,
+    "success": true,
+    "testId": 18
+  },
+  {
+    "numPassedTests": 23,
+    "failedTests": 1,
+    "numTotalTests": 24,
+    "timestamp": 1772924440086,
+    "success": false,
+    "testId": 18
+  },
+  {
+    "numPassedTests": 23,
+    "failedTests": 1,
+    "numTotalTests": 24,
+    "timestamp": 1772924453315,
+    "success": false,
+    "testId": 18
+  },
+  {
+    "numPassedTests": 23,
+    "failedTests": 1,
+    "numTotalTests": 24,
+    "timestamp": 1772924474914,
+    "success": false,
+    "testId": 18
+  },
+  {
+    "numPassedTests": 24,
+    "failedTests": 0,
+    "numTotalTests": 24,
+    "timestamp": 1772924495553,
+    "success": true,
+    "testId": 18
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feaet: muestra porcentake de descuento para precios mayores a 30000",
+    "commitTimestamp": 1772924576916,
+    "testId": 18
   }
 ]

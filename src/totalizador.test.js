@@ -53,28 +53,45 @@ describe("Totalizador", () => {
     expect(totalizador.mostrarTotalConImpuesto(5, 10, "TX")).toEqual(53.125);
   });
 
-  it("no deberia aplicar descuento si el precio neto es menor o igual a 1000", () => {
+  it("no deberia aplicar descuento si el precio neto es menor a 1000", () => {
     expect(totalizador.obtenerPorcentajeDescuento(800)).toEqual(0);
   });
 
-  it("deberia aplicar descuento del 3% si el precio neto es mayor a 1000", () => {
+  it("deberia aplicar descuento del 3% si el precio neto es mayor o igual a 1000", () => {
     expect(totalizador.obtenerPorcentajeDescuento(1200)).toEqual(3);
   });
 
-  it("no deberia aplicar descuento del 5% si el precio neto es menor o igual a 3000'", () => {
+  it("no deberia aplicar descuento del 5% si el precio neto es menor 3000'", () => {
     expect(totalizador.obtenerPorcentajeDescuento(2500)).toEqual(3);
   });
 
-  it("deberia aplicar descuento del 5% si el precio neto es mayor a 3000", () => {
+  it("deberia aplicar descuento del 5% si el precio neto es mayor o igual a 3000", () => {
     expect(totalizador.obtenerPorcentajeDescuento(3500)).toEqual(5);
   });
 
-  it("no deberia aplicar desciento del 7% si el precio es menor o igual a 7000", () => {
+  it("no deberia aplicar desciento del 7% si el precio es menor 7000", () => {
     expect(totalizador.obtenerPorcentajeDescuento(5000)).toEqual(5);
   });
 
-  it ("deberia aplicar descuento del 7% si el precio neto es mayor a 7000", () => {
+  it ("deberia aplicar descuento del 7% si el precio neto es mayor o igual a 7000", () => {
     expect(totalizador.obtenerPorcentajeDescuento(8000)).toEqual(7);
+  });
+
+
+  it("no deberia aplicar desciento del 10% si el precio es menor a 10000", () => {
+    expect(totalizador.obtenerPorcentajeDescuento(9999)).toEqual(7);
+  });
+
+  it ("deberia aplicar descuento del 10% si el precio neto es mayor o igual a 10000", () => {
+    expect(totalizador.obtenerPorcentajeDescuento(10000)).toEqual(10);
+  });
+
+  it("no deberia aplicar desciento del 15% si el precio es menor a 30000", () => {
+    expect(totalizador.obtenerPorcentajeDescuento(29999)).toEqual(10);
+  });
+
+  it ("deberia aplicar descuento del 15% si el precio neto es mayor o igual a 30000", () => {
+    expect(totalizador.obtenerPorcentajeDescuento(30001)).toEqual(15);
   });
 
 });
