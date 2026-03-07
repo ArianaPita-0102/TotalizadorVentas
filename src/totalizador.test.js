@@ -98,4 +98,8 @@ describe("Totalizador", () => {
     expect(totalizador.obtenerImpuestoAdicionalCategoria("Alimentos")).toEqual(0);
   });
 
+  it("deberia mostrar el impuesto adicional de 7% para categoria Bebidas alcohólicas", () => {
+    expect(totalizador.obtenerImpuestoAdicionalCategoria("Bebidas alcohólicas")).toEqual(7);
+  });
+
 });

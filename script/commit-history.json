@@ -456,12 +456,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "90a093f7e684a327a8d1134975f8fe3d0d477654",
     "author": "User",
     "commit": {
       "date": "2026-03-07T23:42:04.000Z",
       "message": "feat: Mostrar el impuesto adicional según la categoría de producto seleccionada",
-      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/90a093f7e684a327a8d1134975f8fe3d0d477654"
     },
     "stats": {
       "total": 14,
@@ -471,6 +471,25 @@
     },
     "coverage": 100,
     "test_count": 25,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "User",
+    "commit": {
+      "date": "2026-03-07T23:47:51.000Z",
+      "message": "feat: mostrar el impuesto adicional de bebdas alcoholicas",
+      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 4,
+      "additions": 4,
+      "deletions": 0,
+      "date": "2026-03-07"
+    },
+    "coverage": 100,
+    "test_count": 26,
     "failed_tests": 0,
     "conclusion": "success"
   }

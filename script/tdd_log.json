@@ -504,9 +504,23 @@
     "testId": 23
   },
   {
-    "commitId": "HEAD",
+    "commitId": "90a093f7e684a327a8d1134975f8fe3d0d477654",
     "commitName": "feat: Mostrar el impuesto adicional según la categoría de producto seleccionada",
     "commitTimestamp": 1772926925009,
     "testId": 24
+  },
+  {
+    "numPassedTests": 26,
+    "failedTests": 0,
+    "numTotalTests": 26,
+    "timestamp": 1772927170365,
+    "success": true,
+    "testId": 25
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: mostrar el impuesto adicional de bebdas alcoholicas",
+    "commitTimestamp": 1772927271716,
+    "testId": 25
   }
 ]
