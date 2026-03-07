@@ -280,9 +280,23 @@
     "testId": 12
   },
   {
-    "commitId": "HEAD",
+    "commitId": "bd461a5e398fc19f48b941c5f56558885df4bf1b",
     "commitName": "feat: calcular precio neto con impuesto de estado UT",
     "commitTimestamp": 1772921238177,
     "testId": 12
+  },
+  {
+    "numPassedTests": 14,
+    "failedTests": 0,
+    "numTotalTests": 14,
+    "timestamp": 1772921409117,
+    "success": true,
+    "testId": 13
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: calcular precio neto con impuesto de TX",
+    "commitTimestamp": 1772921491894,
+    "testId": 13
   }
 ]

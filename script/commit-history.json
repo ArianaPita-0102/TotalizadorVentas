@@ -228,12 +228,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "bd461a5e398fc19f48b941c5f56558885df4bf1b",
     "author": "ArianaPita-0102",
     "commit": {
       "date": "2026-03-07T22:07:18.000Z",
       "message": "feat: calcular precio neto con impuesto de estado UT",
-      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/bd461a5e398fc19f48b941c5f56558885df4bf1b"
     },
     "stats": {
       "total": 4,
@@ -243,6 +243,25 @@
     },
     "coverage": 100,
     "test_count": 13,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "User",
+    "commit": {
+      "date": "2026-03-07T22:11:31.000Z",
+      "message": "feat: calcular precio neto con impuesto de TX",
+      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 3,
+      "additions": 3,
+      "deletions": 0,
+      "date": "2026-03-07"
+    },
+    "coverage": 100,
+    "test_count": 14,
     "failed_tests": 0,
     "conclusion": "success"
   }

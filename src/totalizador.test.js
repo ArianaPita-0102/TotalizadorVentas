@@ -49,5 +49,8 @@ describe("Totalizador", () => {
   expect(totalizador.mostrarTotalConImpuesto(5, 10, "UT")).toEqual(53.325);
   });
 
+  it ("deberia mostrar el precio total con impuesto para TX", () => {
+  expect(totalizador.mostrarTotalConImpuesto(5, 10, "TX")).toEqual(53.125);
+  });
 
 });
