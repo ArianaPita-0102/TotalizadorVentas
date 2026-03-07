@@ -76,18 +76,37 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "bd1194eb0030f5c157221c1ca63ab45946263e86",
     "author": "User",
     "commit": {
       "date": "2026-03-05T14:13:13.000Z",
       "message": "fix: mostrar precio neto",
-      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/bd1194eb0030f5c157221c1ca63ab45946263e86"
     },
     "stats": {
       "total": 21,
       "additions": 18,
       "deletions": 3,
       "date": "2026-03-05"
+    },
+    "coverage": 100,
+    "test_count": 4,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "ArianaPita-0102",
+    "commit": {
+      "date": "2026-03-07T21:05:14.000Z",
+      "message": "Refactor tests to use describe/it structure instead of individual tests",
+      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 20,
+      "additions": 11,
+      "deletions": 9,
+      "date": "2026-03-07"
     },
     "coverage": 100,
     "test_count": 4,

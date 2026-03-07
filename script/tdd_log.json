@@ -120,9 +120,31 @@
     "testId": 4
   },
   {
-    "commitId": "HEAD",
+    "commitId": "bd1194eb0030f5c157221c1ca63ab45946263e86",
     "commitName": "fix: mostrar precio neto",
     "commitTimestamp": 1772719993718,
     "testId": 4
+  },
+  {
+    "numPassedTests": 3,
+    "failedTests": 1,
+    "numTotalTests": 4,
+    "timestamp": 1772917383862,
+    "success": false,
+    "testId": 5
+  },
+  {
+    "numPassedTests": 4,
+    "failedTests": 0,
+    "numTotalTests": 4,
+    "timestamp": 1772917398590,
+    "success": true,
+    "testId": 5
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "Refactor tests to use describe/it structure instead of individual tests",
+    "commitTimestamp": 1772917514539,
+    "testId": 5
   }
 ]
