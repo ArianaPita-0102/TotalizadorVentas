@@ -266,12 +266,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "1004dd67873da0d7686eadb0cbfdaf7151c72bb6",
     "author": "ArianaPita-0102",
     "commit": {
       "date": "2026-03-07T22:19:29.000Z",
       "message": "fix: mostrar la cantidad de descuento en base al precio neto en pantalla",
-      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/1004dd67873da0d7686eadb0cbfdaf7151c72bb6"
     },
     "stats": {
       "total": 2,
@@ -281,6 +281,25 @@
     },
     "coverage": 100,
     "test_count": 14,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "ArianaPita-0102",
+    "commit": {
+      "date": "2026-03-07T22:27:44.000Z",
+      "message": "feat: muestra porcentaje de descuento para precios mayores o iguales  a 1000",
+      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 44,
+      "additions": 36,
+      "deletions": 8,
+      "date": "2026-03-07"
+    },
+    "coverage": 100,
+    "test_count": 16,
     "failed_tests": 0,
     "conclusion": "success"
   }

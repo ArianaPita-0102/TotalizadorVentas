@@ -27,6 +27,14 @@ const totalizador = {
     const precioNeto = cantidad * precio;
     const impuesto = totalizador.mostrarImpuestoEstado(estado);
     return precioNeto + (precioNeto * impuesto / 100);
+  },
+
+
+  obtenerPorcentajeDescuento(precioNeto) {
+    if (precioNeto >= 1000) {
+      return 3;
+    }
+    return 0;
   }
 }
 

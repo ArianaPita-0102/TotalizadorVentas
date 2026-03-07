@@ -34,23 +34,31 @@ describe("Totalizador", () => {
   });
 
   it("deberia mostrar el precio total con impuesto para CA", () => {
-  expect(totalizador.mostrarTotalConImpuesto(5, 10, "CA")).toEqual(54.125);
+    expect(totalizador.mostrarTotalConImpuesto(5, 10, "CA")).toEqual(54.125);
   });
 
   it("deberia mostrar el precio total con impuesto para AL", () => {
-  expect(totalizador.mostrarTotalConImpuesto(5, 10, "AL")).toEqual(52);
+    expect(totalizador.mostrarTotalConImpuesto(5, 10, "AL")).toEqual(52);
   });
 
   it("deberia mostrar el precio total con impuesto para NV", () => {
-  expect(totalizador.mostrarTotalConImpuesto(5, 10, "NV")).toEqual(54);
+    expect(totalizador.mostrarTotalConImpuesto(5, 10, "NV")).toEqual(54);
   });
 
   it("deberia mostrar el precio total con impuesto para UT", () => {
-  expect(totalizador.mostrarTotalConImpuesto(5, 10, "UT")).toEqual(53.325);
+    expect(totalizador.mostrarTotalConImpuesto(5, 10, "UT")).toEqual(53.325);
   });
 
   it ("deberia mostrar el precio total con impuesto para TX", () => {
-  expect(totalizador.mostrarTotalConImpuesto(5, 10, "TX")).toEqual(53.125);
+    expect(totalizador.mostrarTotalConImpuesto(5, 10, "TX")).toEqual(53.125);
+  });
+
+  it("no deberia aplicar descuento si el precio neto es menor o igual a 1000", () => {
+    expect(totalizador.obtenerPorcentajeDescuento(800)).toEqual(0);
+  });
+
+  it("deberia aplicar descuento del 3% si el precio neto es mayor a 1000", () => {
+    expect(totalizador.obtenerPorcentajeDescuento(1200)).toEqual(3);
   });
 
 });

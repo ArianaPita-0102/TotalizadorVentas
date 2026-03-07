@@ -300,9 +300,23 @@
     "testId": 13
   },
   {
-    "commitId": "HEAD",
+    "commitId": "1004dd67873da0d7686eadb0cbfdaf7151c72bb6",
     "commitName": "fix: mostrar la cantidad de descuento en base al precio neto en pantalla",
     "commitTimestamp": 1772921970160,
     "testId": 14
+  },
+  {
+    "numPassedTests": 14,
+    "failedTests": 2,
+    "numTotalTests": 16,
+    "timestamp": 1772922171787,
+    "success": false,
+    "testId": 15
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: muestra porcentaje de descuento para precios mayores o iguales  a 1000",
+    "commitTimestamp": 1772922464378,
+    "testId": 15
   }
 ]
