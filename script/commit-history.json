@@ -969,12 +969,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "99f66c6c3eb06db6e02f86d12d25009f2cbb5a38",
     "author": "ArianaPita-0102",
     "commit": {
       "date": "2026-03-08T03:11:18.000Z",
       "message": "feat: calcula costo de envio final con descuento por tipo de cliente",
-      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/99f66c6c3eb06db6e02f86d12d25009f2cbb5a38"
     },
     "stats": {
       "total": 25,
@@ -984,6 +984,25 @@
     },
     "coverage": 100,
     "test_count": 51,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "ArianaPita-0102",
+    "commit": {
+      "date": "2026-03-08T03:16:34.000Z",
+      "message": "feat: aplica descuento especial de 100 para cliente recurrente en alimentos con precio neto mayor a 3000",
+      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 19,
+      "additions": 19,
+      "deletions": 0,
+      "date": "2026-03-08"
+    },
+    "coverage": 98.15,
+    "test_count": 52,
     "failed_tests": 0,
     "conclusion": "success"
   }

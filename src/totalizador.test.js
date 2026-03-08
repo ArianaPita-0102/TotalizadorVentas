@@ -201,5 +201,9 @@ describe("Totalizador", () => {
   it("deberia calcular el costo de envio final con descuento de cliente recurrente", () => {
     expect(totalizador.obtenerCostoEnvioFinal(5, 15, "recurrente")).toEqual(17.4125);
   });
+
+  it("deberia aplicar descuento de 100 si cliente es recurrente, categoria alimentos y precio neto mayor a 3000", () => {
+    expect(totalizador.obtenerDescuentoEspecialCliente("recurrente", "Alimentos", 4000)).toEqual(100);
+  });
   
 });

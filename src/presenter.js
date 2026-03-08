@@ -22,6 +22,7 @@ boton.addEventListener("click", () => {
   const descuentoEnvio = totalizador.obtenerDescuentoEnvioCliente(tipoCliente);
   const costoEnvioFinal = totalizador.obtenerCostoEnvioFinal(cantidad, peso, tipoCliente);
 
+  const descuentoEspecial = totalizador.obtenerDescuentoEspecialCliente(tipoCliente, categoria, precioNeto);
   document.querySelector("#resultadoNeto").textContent = precioNeto;
   document.querySelector("#textoImpuesto").textContent = "Impuesto para " + estado + " (%" + impuesto + ")";
   document.querySelector("#textoDescuento").textContent = "Descuento (" + porcentajeDescuento + "%)";
@@ -42,6 +43,8 @@ boton.addEventListener("click", () => {
   document.querySelector("#resultadoDescuentoEnvio").textContent = descuentoEnvio + "%";
 
   document.querySelector("#resultadoEnvio").textContent = costoEnvioFinal;
+
+  document.querySelector("#resultadoDescuentoEspecial").textContent = descuentoEspecial;
 });
 
 

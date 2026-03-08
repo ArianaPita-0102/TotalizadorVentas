@@ -1082,9 +1082,31 @@
     "testId": 51
   },
   {
-    "commitId": "HEAD",
+    "commitId": "99f66c6c3eb06db6e02f86d12d25009f2cbb5a38",
     "commitName": "feat: calcula costo de envio final con descuento por tipo de cliente",
     "commitTimestamp": 1772939478795,
     "testId": 51
+  },
+  {
+    "numPassedTests": 51,
+    "failedTests": 1,
+    "numTotalTests": 52,
+    "timestamp": 1772939615840,
+    "success": false,
+    "testId": 52
+  },
+  {
+    "numPassedTests": 52,
+    "failedTests": 0,
+    "numTotalTests": 52,
+    "timestamp": 1772939686071,
+    "success": true,
+    "testId": 52
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: aplica descuento especial de 100 para cliente recurrente en alimentos con precio neto mayor a 3000",
+    "commitTimestamp": 1772939794681,
+    "testId": 52
   }
 ]

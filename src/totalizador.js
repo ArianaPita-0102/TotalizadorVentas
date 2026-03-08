@@ -120,6 +120,13 @@ const totalizador = {
     const descuento = totalizador.obtenerDescuentoEnvioCliente(tipoCliente);
 
     return costoEnvioTotal - (costoEnvioTotal * descuento / 100);
+  },
+
+  obtenerDescuentoEspecialCliente(tipoCliente, categoria, precioNeto) {
+    if (tipoCliente === "recurrente" && categoria === "Alimentos" && precioNeto > 3000) {
+      return 100;
+    }
+    return 0;
   }
 }
 
