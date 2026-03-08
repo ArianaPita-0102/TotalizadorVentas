@@ -798,12 +798,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "45929dd8ec8f399a239809998d224b77d4d5c47b",
     "author": "User",
     "commit": {
       "date": "2026-03-08T01:34:26.000Z",
       "message": "feat: mostrar costo de envio por unidad entre 101-200",
-      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/45929dd8ec8f399a239809998d224b77d4d5c47b"
     },
     "stats": {
       "total": 7,
@@ -813,6 +813,25 @@
     },
     "coverage": 100,
     "test_count": 44,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "User",
+    "commit": {
+      "date": "2026-03-08T01:44:14.000Z",
+      "message": "feat: mostrar costo de envio por unidad mayor a 200",
+      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 6,
+      "additions": 6,
+      "deletions": 0,
+      "date": "2026-03-08"
+    },
+    "coverage": 100,
+    "test_count": 45,
     "failed_tests": 0,
     "conclusion": "success"
   }

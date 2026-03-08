@@ -173,4 +173,9 @@ describe("Totalizador", () => {
   it ("deberia mostrar el costo de envio de $8 para peso volumétrico entre 101 y 200", () => {
     expect(totalizador.obtenerCostoEnvioPorUnidad(150)).toEqual(8);
   });
+
+  it("deberia mostrar el costo de envio de $9 para peso volumétrico mayor a 200", () => {
+    expect(totalizador.obtenerCostoEnvioPorUnidad(250)).toEqual(9);
+  });
+  
 });
