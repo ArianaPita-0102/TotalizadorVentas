@@ -97,6 +97,9 @@ const totalizador = {
     if (peso <=100) {
       return 6.5;
     }
+    if (peso <=200) {
+      return 8;
+    }
   }
 
 }

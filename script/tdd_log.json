@@ -846,9 +846,31 @@
     "testId": 41
   },
   {
-    "commitId": "HEAD",
+    "commitId": "5e5433a173af63333c40c9d07b8bf7d158b103bf",
     "commitName": "feat: mostrar costo de envio por unidad entre 81-100",
     "commitTimestamp": 1772933512969,
     "testId": 41
+  },
+  {
+    "numPassedTests": 43,
+    "failedTests": 1,
+    "numTotalTests": 44,
+    "timestamp": 1772933534209,
+    "success": false,
+    "testId": 42
+  },
+  {
+    "numPassedTests": 44,
+    "failedTests": 0,
+    "numTotalTests": 44,
+    "timestamp": 1772933568600,
+    "success": true,
+    "testId": 42
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: mostrar costo de envio por unidad entre 101-200",
+    "commitTimestamp": 1772933666935,
+    "testId": 42
   }
 ]
