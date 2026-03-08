@@ -627,12 +627,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "cbc3884c8a06b437aead428e12c770d60b4b5136",
     "author": "User",
     "commit": {
       "date": "2026-03-08T00:13:22.000Z",
       "message": "feat: desciento adicional de vestimenta",
-      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/cbc3884c8a06b437aead428e12c770d60b4b5136"
     },
     "stats": {
       "total": 9,
@@ -642,6 +642,25 @@
     },
     "coverage": 100,
     "test_count": 37,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "User",
+    "commit": {
+      "date": "2026-03-08T00:15:22.000Z",
+      "message": "feat: desciento adicional de varios",
+      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 6,
+      "deletions": 1,
+      "date": "2026-03-08"
+    },
+    "coverage": 100,
+    "test_count": 38,
     "failed_tests": 0,
     "conclusion": "success"
   }

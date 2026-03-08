@@ -74,7 +74,8 @@ const totalizador = {
       "Material de escritorio": 1.5,
       Muebles: 0,
       Electrónicos: 1,
-      Vestimenta: 0
+      Vestimenta: 0,
+      Varios: 0
       
     };
     return descuentosAdicionales[categoria];

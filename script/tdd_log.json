@@ -694,9 +694,31 @@
     "testId": 33
   },
   {
-    "commitId": "HEAD",
+    "commitId": "cbc3884c8a06b437aead428e12c770d60b4b5136",
     "commitName": "feat: desciento adicional de vestimenta",
     "commitTimestamp": 1772928802902,
     "testId": 33
+  },
+  {
+    "numPassedTests": 37,
+    "failedTests": 1,
+    "numTotalTests": 38,
+    "timestamp": 1772928874275,
+    "success": false,
+    "testId": 34
+  },
+  {
+    "numPassedTests": 38,
+    "failedTests": 0,
+    "numTotalTests": 38,
+    "timestamp": 1772928896364,
+    "success": true,
+    "testId": 34
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: desciento adicional de varios",
+    "commitTimestamp": 1772928923468,
+    "testId": 34
   }
 ]

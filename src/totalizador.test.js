@@ -145,4 +145,8 @@ describe("Totalizador", () => {
   it("deberia mostrar el descuento adicional de 0% para categoria Vestimenta", () => {
     expect(totalizador.obtenerDescuentoAdicionalCategoria("Vestimenta")).toEqual(0);
   });
+
+  it("deberia mostrar el descuento adicional de 0% para categoria Varios", () => {
+    expect(totalizador.obtenerDescuentoAdicionalCategoria("Varios")).toEqual(0);
+  });
 });
