@@ -73,7 +73,8 @@ const totalizador = {
       "Bebidas alcohólicas": 0,
       "Material de escritorio": 1.5,
       Muebles: 0,
-      Electrónicos: 1
+      Electrónicos: 1,
+      Vestimenta: 0
       
     };
     return descuentosAdicionales[categoria];

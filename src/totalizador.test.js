@@ -137,8 +137,12 @@ describe("Totalizador", () => {
   it("deberia mostrar el descuento adicional de 0% para categoria Muebles", () => {
     expect(totalizador.obtenerDescuentoAdicionalCategoria("Muebles")).toEqual(0);
   });
-  
+
   it("deberia mostrar el descuento adicional de 1% para categoria Electrónicos", () => {
     expect(totalizador.obtenerDescuentoAdicionalCategoria("Electrónicos")).toEqual(1);
+  });
+
+  it("deberia mostrar el descuento adicional de 0% para categoria Vestimenta", () => {
+    expect(totalizador.obtenerDescuentoAdicionalCategoria("Vestimenta")).toEqual(0);
   });
 });
