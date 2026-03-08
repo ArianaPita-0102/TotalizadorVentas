@@ -1007,17 +1007,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "2e41072696b7a6873ecfef03c3d3fd0bc944dfbd",
     "author": "ArianaPita-0102",
     "commit": {
       "date": "2026-03-08T03:19:36.000Z",
       "message": "feat: agrega descuento especial de 200 para cliente especial en electronicos con precio mayor a 7000",
-      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/2e41072696b7a6873ecfef03c3d3fd0bc944dfbd"
     },
     "stats": {
       "total": 8,
       "additions": 8,
       "deletions": 0,
+      "date": "2026-03-08"
+    },
+    "coverage": 98.21,
+    "test_count": 53,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "ArianaPita-0102",
+    "commit": {
+      "date": "2026-03-08T23:48:57.000Z",
+      "message": "feat: calculo total de pago con impuestos y descuentos calculados",
+      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 25,
+      "additions": 18,
+      "deletions": 7,
       "date": "2026-03-08"
     },
     "coverage": 98.21,

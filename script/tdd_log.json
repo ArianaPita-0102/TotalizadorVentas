@@ -1126,9 +1126,15 @@
     "testId": 53
   },
   {
-    "commitId": "HEAD",
+    "commitId": "2e41072696b7a6873ecfef03c3d3fd0bc944dfbd",
     "commitName": "feat: agrega descuento especial de 200 para cliente especial en electronicos con precio mayor a 7000",
     "commitTimestamp": 1772939976810,
     "testId": 53
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: calculo total de pago con impuestos y descuentos calculados",
+    "commitTimestamp": 1773013737788,
+    "testId": 54
   }
 ]
