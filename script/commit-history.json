@@ -589,12 +589,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "7d6035f8ce0aba9926f2db3df0d7f5b614bc85ef",
     "author": "User",
     "commit": {
       "date": "2026-03-08T00:09:25.000Z",
       "message": "feat: desciento adicional de muebles",
-      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/7d6035f8ce0aba9926f2db3df0d7f5b614bc85ef"
     },
     "stats": {
       "total": 7,
@@ -604,6 +604,25 @@
     },
     "coverage": 100,
     "test_count": 35,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "User",
+    "commit": {
+      "date": "2026-03-08T00:11:30.000Z",
+      "message": "feat: desciento adicional de electronicos",
+      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 6,
+      "deletions": 2,
+      "date": "2026-03-08"
+    },
+    "coverage": 100,
+    "test_count": 36,
     "failed_tests": 0,
     "conclusion": "success"
   }
