@@ -665,17 +665,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "479872c308dfe605476ef74345f5d98d38de393c",
     "author": "User",
     "commit": {
       "date": "2026-03-08T00:17:56.000Z",
       "message": "feat: interfaz para mostrar el decuento adicional",
-      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/479872c308dfe605476ef74345f5d98d38de393c"
     },
     "stats": {
       "total": 8,
       "additions": 8,
       "deletions": 0,
+      "date": "2026-03-08"
+    },
+    "coverage": 100,
+    "test_count": 38,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "User",
+    "commit": {
+      "date": "2026-03-08T00:19:38.000Z",
+      "message": "feat: mostrar peso volumetrico",
+      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 9,
+      "additions": 8,
+      "deletions": 1,
       "date": "2026-03-08"
     },
     "coverage": 100,

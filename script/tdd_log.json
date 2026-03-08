@@ -722,9 +722,15 @@
     "testId": 34
   },
   {
-    "commitId": "HEAD",
+    "commitId": "479872c308dfe605476ef74345f5d98d38de393c",
     "commitName": "feat: interfaz para mostrar el decuento adicional",
     "commitTimestamp": 1772929076637,
     "testId": 35
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: mostrar peso volumetrico",
+    "commitTimestamp": 1772929179098,
+    "testId": 36
   }
 ]
