@@ -988,12 +988,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "4e4dd421281c30b55ca59b713c3f02acad2285a8",
     "author": "ArianaPita-0102",
     "commit": {
       "date": "2026-03-08T03:16:34.000Z",
       "message": "feat: aplica descuento especial de 100 para cliente recurrente en alimentos con precio neto mayor a 3000",
-      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/4e4dd421281c30b55ca59b713c3f02acad2285a8"
     },
     "stats": {
       "total": 19,
@@ -1003,6 +1003,25 @@
     },
     "coverage": 98.15,
     "test_count": 52,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "ArianaPita-0102",
+    "commit": {
+      "date": "2026-03-08T03:19:36.000Z",
+      "message": "feat: agrega descuento especial de 200 para cliente especial en electronicos con precio mayor a 7000",
+      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 8,
+      "deletions": 0,
+      "date": "2026-03-08"
+    },
+    "coverage": 98.21,
+    "test_count": 53,
     "failed_tests": 0,
     "conclusion": "success"
   }

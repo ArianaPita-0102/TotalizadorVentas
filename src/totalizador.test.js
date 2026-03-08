@@ -206,4 +206,7 @@ describe("Totalizador", () => {
     expect(totalizador.obtenerDescuentoEspecialCliente("recurrente", "Alimentos", 4000)).toEqual(100);
   });
   
+  it("deberia aplicar descuento de 200 si cliente es especial, categoria electronicos y precio neto mayor a 7000", () => {
+    expect(totalizador.obtenerDescuentoEspecialCliente("especial", "Electrónicos", 8000)).toEqual(200);
+  });
 });

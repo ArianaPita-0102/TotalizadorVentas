@@ -126,6 +126,11 @@ const totalizador = {
     if (tipoCliente === "recurrente" && categoria === "Alimentos" && precioNeto > 3000) {
       return 100;
     }
+
+    if (tipoCliente === "especial" && categoria === "Electrónicos" && precioNeto > 7000) {
+      return 200;
+    }
+
     return 0;
   }
 }

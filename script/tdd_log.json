@@ -1104,9 +1104,31 @@
     "testId": 52
   },
   {
-    "commitId": "HEAD",
+    "commitId": "4e4dd421281c30b55ca59b713c3f02acad2285a8",
     "commitName": "feat: aplica descuento especial de 100 para cliente recurrente en alimentos con precio neto mayor a 3000",
     "commitTimestamp": 1772939794681,
     "testId": 52
+  },
+  {
+    "numPassedTests": 52,
+    "failedTests": 1,
+    "numTotalTests": 53,
+    "timestamp": 1772939854944,
+    "success": false,
+    "testId": 53
+  },
+  {
+    "numPassedTests": 53,
+    "failedTests": 0,
+    "numTotalTests": 53,
+    "timestamp": 1772939875793,
+    "success": true,
+    "testId": 53
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: agrega descuento especial de 200 para cliente especial en electronicos con precio mayor a 7000",
+    "commitTimestamp": 1772939976810,
+    "testId": 53
   }
 ]
