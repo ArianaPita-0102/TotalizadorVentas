@@ -780,9 +780,31 @@
     "testId": 38
   },
   {
-    "commitId": "HEAD",
+    "commitId": "10091745af244f3254eba7da7b849082939d16af",
     "commitName": "feat: Mostrar el costo de envío por unidad para peso volumétrico entre 11-20",
     "commitTimestamp": 1772932235491,
     "testId": 38
+  },
+  {
+    "numPassedTests": 40,
+    "failedTests": 1,
+    "numTotalTests": 41,
+    "timestamp": 1772932358492,
+    "success": false,
+    "testId": 39
+  },
+  {
+    "numPassedTests": 41,
+    "failedTests": 0,
+    "numTotalTests": 41,
+    "timestamp": 1772932393977,
+    "success": true,
+    "testId": 39
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: mostrar costo de envio por unidad entre 21-40",
+    "commitTimestamp": 1772932431458,
+    "testId": 39
   }
 ]

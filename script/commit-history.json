@@ -722,12 +722,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "10091745af244f3254eba7da7b849082939d16af",
     "author": "User",
     "commit": {
       "date": "2026-03-08T01:10:34.000Z",
       "message": "feat: Mostrar el costo de envío por unidad para peso volumétrico entre 11-20",
-      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/10091745af244f3254eba7da7b849082939d16af"
     },
     "stats": {
       "total": 7,
@@ -737,6 +737,25 @@
     },
     "coverage": 100,
     "test_count": 40,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "User",
+    "commit": {
+      "date": "2026-03-08T01:13:50.000Z",
+      "message": "feat: mostrar costo de envio por unidad entre 21-40",
+      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 7,
+      "deletions": 0,
+      "date": "2026-03-08"
+    },
+    "coverage": 100,
+    "test_count": 41,
     "failed_tests": 0,
     "conclusion": "success"
   }
