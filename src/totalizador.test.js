@@ -126,4 +126,9 @@ describe("Totalizador", () => {
     expect(totalizador.obtenerDescuentoAdicionalCategoria("Alimentos")).toEqual(2);
   });
 
+  it("deberia mostrar el descuento adicional de 0% para categoria Bebidas alcohólicas", () => {
+    expect(totalizador.obtenerDescuentoAdicionalCategoria("Bebidas alcohólicas")).toEqual(0);
+  });
+
+
 });

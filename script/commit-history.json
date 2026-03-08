@@ -532,12 +532,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "f9d337f379620006e72c079483f7ab6d95ca1b93",
     "author": "User",
     "commit": {
       "date": "2026-03-07T23:53:59.000Z",
       "message": "feat: Mostrar el precio total con el descuento adicional de 2% para categoría alimentos",
-      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/f9d337f379620006e72c079483f7ab6d95ca1b93"
     },
     "stats": {
       "total": 11,
@@ -547,6 +547,25 @@
     },
     "coverage": 96.15,
     "test_count": 32,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "User",
+    "commit": {
+      "date": "2026-03-08T00:05:49.000Z",
+      "message": "refactor: obtener descuento adicional por categoria",
+      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 16,
+      "additions": 12,
+      "deletions": 4,
+      "date": "2026-03-08"
+    },
+    "coverage": 100,
+    "test_count": 33,
     "failed_tests": 0,
     "conclusion": "success"
   }

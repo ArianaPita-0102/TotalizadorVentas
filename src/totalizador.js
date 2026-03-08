@@ -68,11 +68,14 @@ const totalizador = {
   },
 
   obtenerDescuentoAdicionalCategoria(categoria) {
-    if (categoria === "Alimentos") {
-      return 2;
-    }
-    return 0;
+    const descuentosAdicionales = {
+      Alimentos: 2,
+      "Bebidas alcohólicas": 0,
+      
+    };
+    return descuentosAdicionales[categoria];
   }
+
 }
 
 export default totalizador;
