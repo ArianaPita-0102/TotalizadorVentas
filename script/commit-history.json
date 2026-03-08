@@ -646,17 +646,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "3666417d8e48457ce256fa1c4b8f1b4353f08d35",
     "author": "User",
     "commit": {
       "date": "2026-03-08T00:15:22.000Z",
       "message": "feat: desciento adicional de varios",
-      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/3666417d8e48457ce256fa1c4b8f1b4353f08d35"
     },
     "stats": {
       "total": 7,
       "additions": 6,
       "deletions": 1,
+      "date": "2026-03-08"
+    },
+    "coverage": 100,
+    "test_count": 38,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "User",
+    "commit": {
+      "date": "2026-03-08T00:17:56.000Z",
+      "message": "feat: interfaz para mostrar el decuento adicional",
+      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 8,
+      "deletions": 0,
       "date": "2026-03-08"
     },
     "coverage": 100,

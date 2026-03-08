@@ -716,9 +716,15 @@
     "testId": 34
   },
   {
-    "commitId": "HEAD",
+    "commitId": "3666417d8e48457ce256fa1c4b8f1b4353f08d35",
     "commitName": "feat: desciento adicional de varios",
     "commitTimestamp": 1772928923468,
     "testId": 34
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: interfaz para mostrar el decuento adicional",
+    "commitTimestamp": 1772929076637,
+    "testId": 35
   }
 ]
