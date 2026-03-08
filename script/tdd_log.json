@@ -918,9 +918,15 @@
     "testId": 44
   },
   {
-    "commitId": "HEAD",
+    "commitId": "728354226c0915b1b97fe86292f2f32be604f119",
     "commitName": "feat: muestra costo de envio por unidad",
     "commitTimestamp": 1772937171064,
     "testId": 45
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: agrega lista de tipos de cliente",
+    "commitTimestamp": 1772937579999,
+    "testId": 46
   }
 ]

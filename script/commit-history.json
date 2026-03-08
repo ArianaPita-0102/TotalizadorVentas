@@ -855,17 +855,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "728354226c0915b1b97fe86292f2f32be604f119",
     "author": "ArianaPita-0102",
     "commit": {
       "date": "2026-03-08T02:32:50.000Z",
       "message": "feat: muestra costo de envio por unidad",
-      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/728354226c0915b1b97fe86292f2f32be604f119"
     },
     "stats": {
       "total": 10,
       "additions": 9,
       "deletions": 1,
+      "date": "2026-03-08"
+    },
+    "coverage": 100,
+    "test_count": 46,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "ArianaPita-0102",
+    "commit": {
+      "date": "2026-03-08T02:39:39.000Z",
+      "message": "feat: agrega lista de tipos de cliente",
+      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 13,
+      "additions": 13,
+      "deletions": 0,
       "date": "2026-03-08"
     },
     "coverage": 100,

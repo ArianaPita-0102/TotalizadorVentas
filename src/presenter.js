@@ -8,6 +8,7 @@ boton.addEventListener("click", () => {
   const estado = document.querySelector("#estado").value;
   const categoria = document.querySelector("#categoria").value;
   const peso = Number(document.querySelector("#pesoVolumetrico").value);
+  const tipoCliente = document.querySelector("#tipoCliente").value;
 
   const precioNeto = totalizador.mostrarPrecioNeto(cantidad, precio);
   const impuesto = totalizador.mostrarImpuestoEstado(estado);
