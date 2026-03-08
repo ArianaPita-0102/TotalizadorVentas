@@ -950,12 +950,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "87962564fdf6de359150b35618a7b439318ff173",
     "author": "ArianaPita-0102",
     "commit": {
       "date": "2026-03-08T03:01:31.000Z",
       "message": "feat: agrega descuento de envio 1% para cliente especial",
-      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/87962564fdf6de359150b35618a7b439318ff173"
     },
     "stats": {
       "total": 7,
@@ -965,6 +965,25 @@
     },
     "coverage": 100,
     "test_count": 50,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "ArianaPita-0102",
+    "commit": {
+      "date": "2026-03-08T03:11:18.000Z",
+      "message": "feat: calcula costo de envio final con descuento por tipo de cliente",
+      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 25,
+      "additions": 18,
+      "deletions": 7,
+      "date": "2026-03-08"
+    },
+    "coverage": 100,
+    "test_count": 51,
     "failed_tests": 0,
     "conclusion": "success"
   }

@@ -1044,9 +1044,47 @@
     "testId": 50
   },
   {
-    "commitId": "HEAD",
+    "commitId": "87962564fdf6de359150b35618a7b439318ff173",
     "commitName": "feat: agrega descuento de envio 1% para cliente especial",
     "commitTimestamp": 1772938891546,
     "testId": 50
+  },
+  {
+    "numPassedTests": 50,
+    "failedTests": 0,
+    "numTotalTests": 50,
+    "timestamp": 1772938921983,
+    "success": true,
+    "testId": 51
+  },
+  {
+    "numPassedTests": 50,
+    "failedTests": 1,
+    "numTotalTests": 51,
+    "timestamp": 1772939009922,
+    "success": false,
+    "testId": 51
+  },
+  {
+    "numPassedTests": 51,
+    "failedTests": 0,
+    "numTotalTests": 51,
+    "timestamp": 1772939055051,
+    "success": true,
+    "testId": 51
+  },
+  {
+    "numPassedTests": 51,
+    "failedTests": 0,
+    "numTotalTests": 51,
+    "timestamp": 1772939450817,
+    "success": true,
+    "testId": 51
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: calcula costo de envio final con descuento por tipo de cliente",
+    "commitTimestamp": 1772939478795,
+    "testId": 51
   }
 ]

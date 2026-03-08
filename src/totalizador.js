@@ -109,10 +109,17 @@ const totalizador = {
   },
 
   obtenerDescuentoEnvioCliente(tipoCliente) {
-  if (tipoCliente === "normal") return 0;
-  if (tipoCliente === "recurrente") return 0.5;
-  if (tipoCliente === "antiguo recurrente") return 1;
-  if (tipoCliente === "especial") return 1.5;
+    if (tipoCliente === "normal") return 0;
+    if (tipoCliente === "recurrente") return 0.5;
+    if (tipoCliente === "antiguo recurrente") return 1;
+    if (tipoCliente === "especial") return 1.5;
+  },
+
+  obtenerCostoEnvioFinal(cantidad, peso, tipoCliente) {
+    const costoEnvioTotal = totalizador.obtenerCostoEnvioTotal(cantidad, peso);
+    const descuento = totalizador.obtenerDescuentoEnvioCliente(tipoCliente);
+
+    return costoEnvioTotal - (costoEnvioTotal * descuento / 100);
   }
 }
 
