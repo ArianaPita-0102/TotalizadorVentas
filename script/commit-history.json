@@ -817,12 +817,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "d0f70d9d546d6e97704ffd838a99305b1a1b05df",
     "author": "User",
     "commit": {
       "date": "2026-03-08T01:44:14.000Z",
       "message": "feat: mostrar costo de envio por unidad mayor a 200",
-      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/d0f70d9d546d6e97704ffd838a99305b1a1b05df"
     },
     "stats": {
       "total": 6,
@@ -832,6 +832,25 @@
     },
     "coverage": 100,
     "test_count": 45,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "ArianaPita-0102",
+    "commit": {
+      "date": "2026-03-08T02:29:00.000Z",
+      "message": "feat: calcula costo de envio total segun cantidad y peso volumetrico",
+      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 21,
+      "additions": 18,
+      "deletions": 3,
+      "date": "2026-03-08"
+    },
+    "coverage": 100,
+    "test_count": 46,
     "failed_tests": 0,
     "conclusion": "success"
   }

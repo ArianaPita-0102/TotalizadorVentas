@@ -890,9 +890,31 @@
     "testId": 43
   },
   {
-    "commitId": "HEAD",
+    "commitId": "d0f70d9d546d6e97704ffd838a99305b1a1b05df",
     "commitName": "feat: mostrar costo de envio por unidad mayor a 200",
     "commitTimestamp": 1772934255241,
     "testId": 43
+  },
+  {
+    "numPassedTests": 45,
+    "failedTests": 1,
+    "numTotalTests": 46,
+    "timestamp": 1772936360329,
+    "success": false,
+    "testId": 44
+  },
+  {
+    "numPassedTests": 46,
+    "failedTests": 0,
+    "numTotalTests": 46,
+    "timestamp": 1772936741503,
+    "success": true,
+    "testId": 44
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: calcula costo de envio total segun cantidad y peso volumetrico",
+    "commitTimestamp": 1772936940770,
+    "testId": 44
   }
 ]

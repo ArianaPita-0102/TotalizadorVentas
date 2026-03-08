@@ -101,8 +101,12 @@ const totalizador = {
       return 8;
     }
     return 9;
-  }
+  },
 
+  obtenerCostoEnvioTotal(cantidad, peso) {
+    const costoUnidad = totalizador.obtenerCostoEnvioPorUnidad(peso);
+    return cantidad * costoUnidad;
+  }
 }
 
 export default totalizador;
