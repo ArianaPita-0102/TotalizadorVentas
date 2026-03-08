@@ -71,7 +71,8 @@ const totalizador = {
     const descuentosAdicionales = {
       Alimentos: 2,
       "Bebidas alcohólicas": 0,
-      "Material de escritorio": 1.5
+      "Material de escritorio": 1.5,
+      Muebles: 0
       
     };
     return descuentosAdicionales[categoria];

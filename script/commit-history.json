@@ -570,12 +570,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "36c44489637e59a12302bf19258a56dd3e1d7dde",
     "author": "User",
     "commit": {
       "date": "2026-03-08T00:08:14.000Z",
       "message": "feat: desciento adicional de matarial de escritorio",
-      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/36c44489637e59a12302bf19258a56dd3e1d7dde"
     },
     "stats": {
       "total": 4,
@@ -585,6 +585,25 @@
     },
     "coverage": 100,
     "test_count": 34,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "User",
+    "commit": {
+      "date": "2026-03-08T00:09:25.000Z",
+      "message": "feat: desciento adicional de muebles",
+      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 6,
+      "deletions": 1,
+      "date": "2026-03-08"
+    },
+    "coverage": 100,
+    "test_count": 35,
     "failed_tests": 0,
     "conclusion": "success"
   }

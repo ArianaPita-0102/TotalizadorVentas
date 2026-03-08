@@ -134,4 +134,8 @@ describe("Totalizador", () => {
     expect(totalizador.obtenerDescuentoAdicionalCategoria("Material de escritorio")).toEqual(1.5);
   });
 
+  it("deberia mostrar el descuento adicional de 0% para categoria Muebles", () => {
+    expect(totalizador.obtenerDescuentoAdicionalCategoria("Muebles")).toEqual(0);
+  });
+
 });
