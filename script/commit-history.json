@@ -551,12 +551,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "b7602a27049370a1cc1c2668658c9374090c9902",
     "author": "User",
     "commit": {
       "date": "2026-03-08T00:05:49.000Z",
       "message": "refactor: obtener descuento adicional por categoria",
-      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/b7602a27049370a1cc1c2668658c9374090c9902"
     },
     "stats": {
       "total": 16,
@@ -566,6 +566,25 @@
     },
     "coverage": 100,
     "test_count": 33,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "User",
+    "commit": {
+      "date": "2026-03-08T00:08:14.000Z",
+      "message": "feat: desciento adicional de matarial de escritorio",
+      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 4,
+      "additions": 4,
+      "deletions": 0,
+      "date": "2026-03-08"
+    },
+    "coverage": 100,
+    "test_count": 34,
     "failed_tests": 0,
     "conclusion": "success"
   }

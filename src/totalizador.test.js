@@ -130,5 +130,8 @@ describe("Totalizador", () => {
     expect(totalizador.obtenerDescuentoAdicionalCategoria("Bebidas alcohólicas")).toEqual(0);
   });
 
+  it("deberia mostrar el descuento adicional de 1.5% para categoria Material de escritorio", () => {
+    expect(totalizador.obtenerDescuentoAdicionalCategoria("Material de escritorio")).toEqual(1.5);
+  });
 
 });
