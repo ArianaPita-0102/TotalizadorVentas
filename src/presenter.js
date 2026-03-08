@@ -38,8 +38,9 @@ boton.addEventListener("click", () => {
   document.querySelector("#textoDescuentoAdicional").textContent = "Descuento adicional para " + categoria + " (%" + descuentoAdicional + ")";
   document.querySelector("#resultadoDescuentoAdicional").textContent = precioNeto * descuentoAdicional / 100;
   document.querySelector("#resultadoEnvioUnidad").textContent = costoEnvioUnidad;
-  document.querySelector("#resultadoDescuentoEnvio").textContent = descuentoEnvio;
-  
+  //document.querySelector("#resultadoDescuentoEnvio").textContent = descuentoEnvio;
+  document.querySelector("#resultadoDescuentoEnvio").textContent = descuentoEnvio + "%";
+
   document.querySelector("#resultadoEnvio").textContent = costoEnvioTotal;
 });
 

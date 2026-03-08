@@ -893,12 +893,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "c6cf255f64668ef47af9ac42d967d87f63ffc5d5",
     "author": "ArianaPita-0102",
     "commit": {
       "date": "2026-03-08T02:44:13.000Z",
       "message": "feat: muestra descuento de envio 0% para cliente normal",
-      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/c6cf255f64668ef47af9ac42d967d87f63ffc5d5"
     },
     "stats": {
       "total": 19,
@@ -908,6 +908,25 @@
     },
     "coverage": 100,
     "test_count": 47,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "ArianaPita-0102",
+    "commit": {
+      "date": "2026-03-08T02:56:19.000Z",
+      "message": "feat: agrega descuento de envio 0.5% para cliente recurrente",
+      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 8,
+      "deletions": 2,
+      "date": "2026-03-08"
+    },
+    "coverage": 100,
+    "test_count": 48,
     "failed_tests": 0,
     "conclusion": "success"
   }
