@@ -836,17 +836,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "7111bacdba3c9ce6169518d727043ba294fbe125",
     "author": "ArianaPita-0102",
     "commit": {
       "date": "2026-03-08T02:29:00.000Z",
       "message": "feat: calcula costo de envio total segun cantidad y peso volumetrico",
-      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/7111bacdba3c9ce6169518d727043ba294fbe125"
     },
     "stats": {
       "total": 21,
       "additions": 18,
       "deletions": 3,
+      "date": "2026-03-08"
+    },
+    "coverage": 100,
+    "test_count": 46,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "ArianaPita-0102",
+    "commit": {
+      "date": "2026-03-08T02:32:50.000Z",
+      "message": "feat: muestra costo de envio por unidad",
+      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 9,
+      "deletions": 1,
       "date": "2026-03-08"
     },
     "coverage": 100,

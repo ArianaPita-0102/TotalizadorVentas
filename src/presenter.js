@@ -15,6 +15,8 @@ boton.addEventListener("click", () => {
   const impuestoAdicional = totalizador.obtenerImpuestoAdicionalCategoria(categoria);
   const costoEnvioTotal = totalizador.obtenerCostoEnvioTotal(cantidad, peso);
 
+  const costoEnvioUnidad = totalizador.obtenerCostoEnvioPorUnidad(peso);
+
   const descuento = (precioNeto * porcentajeDescuento) / 100;
 
   document.querySelector("#resultadoNeto").textContent = precioNeto;
@@ -33,7 +35,8 @@ boton.addEventListener("click", () => {
   const descuentoAdicional = totalizador.obtenerDescuentoAdicionalCategoria(categoria);
   document.querySelector("#textoDescuentoAdicional").textContent = "Descuento adicional para " + categoria + " (%" + descuentoAdicional + ")";
   document.querySelector("#resultadoDescuentoAdicional").textContent = precioNeto * descuentoAdicional / 100;
-  
+  document.querySelector("#resultadoEnvioUnidad").textContent = costoEnvioUnidad;
+
   document.querySelector("#resultadoEnvio").textContent = costoEnvioTotal;
 });
 

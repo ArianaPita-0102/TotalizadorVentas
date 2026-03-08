@@ -912,9 +912,15 @@
     "testId": 44
   },
   {
-    "commitId": "HEAD",
+    "commitId": "7111bacdba3c9ce6169518d727043ba294fbe125",
     "commitName": "feat: calcula costo de envio total segun cantidad y peso volumetrico",
     "commitTimestamp": 1772936940770,
     "testId": 44
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: muestra costo de envio por unidad",
+    "commitTimestamp": 1772937171064,
+    "testId": 45
   }
 ]
