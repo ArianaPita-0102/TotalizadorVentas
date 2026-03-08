@@ -91,6 +91,9 @@ const totalizador = {
     if (peso<=40) {
       return 5;
     }
+    if (peso <=80) {
+      return 6;
+    }
   }
 
 }
