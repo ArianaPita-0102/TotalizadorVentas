@@ -79,6 +79,12 @@ const totalizador = {
       
     };
     return descuentosAdicionales[categoria];
+  },
+
+  obtenerCostoEnvioPorUnidad(peso) {
+    if (peso <= 10) {
+      return 0;
+    }
   }
 
 }

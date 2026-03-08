@@ -149,4 +149,8 @@ describe("Totalizador", () => {
   it("deberia mostrar el descuento adicional de 0% para categoria Varios", () => {
     expect(totalizador.obtenerDescuentoAdicionalCategoria("Varios")).toEqual(0);
   });
+
+  it("deberia mostrar el costo de envio de $0 para peso volumétrico entre 0 y 10", () => {
+    expect(totalizador.obtenerCostoEnvioPorUnidad(5)).toEqual(0);
+  });
 });

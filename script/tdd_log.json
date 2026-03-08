@@ -728,9 +728,39 @@
     "testId": 35
   },
   {
-    "commitId": "HEAD",
+    "commitId": "c927613a0c7aaaa297c50e181ef3f47cf0a72879",
     "commitName": "feat: mostrar peso volumetrico",
     "commitTimestamp": 1772929179098,
     "testId": 36
+  },
+  {
+    "numPassedTests": 38,
+    "failedTests": 0,
+    "numTotalTests": 38,
+    "timestamp": 1772931558736,
+    "success": true,
+    "testId": 37
+  },
+  {
+    "numPassedTests": 38,
+    "failedTests": 1,
+    "numTotalTests": 39,
+    "timestamp": 1772931913830,
+    "success": false,
+    "testId": 37
+  },
+  {
+    "numPassedTests": 39,
+    "failedTests": 0,
+    "numTotalTests": 39,
+    "timestamp": 1772931970516,
+    "success": true,
+    "testId": 37
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Mostrar el costo de envío por unidad para peso volumétrico entre 0-10",
+    "commitTimestamp": 1772932002723,
+    "testId": 37
   }
 ]
