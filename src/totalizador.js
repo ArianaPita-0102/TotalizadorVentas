@@ -111,6 +111,7 @@ const totalizador = {
   obtenerDescuentoEnvioCliente(tipoCliente) {
   if (tipoCliente === "normal") return 0;
   if (tipoCliente === "recurrente") return 0.5;
+  if (tipoCliente === "antiguo recurrente") return 1;
 }
 }
 

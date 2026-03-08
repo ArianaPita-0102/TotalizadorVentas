@@ -189,5 +189,9 @@ describe("Totalizador", () => {
   it("cliente recurrente deberia tener descuento de envio 0.5%", () => {
     expect(totalizador.obtenerDescuentoEnvioCliente("recurrente")).toEqual(0.5);
   });
+
+  it("cliente antiguo recurrente deberia tener descuento de envio 1%", () => {
+    expect(totalizador.obtenerDescuentoEnvioCliente("antiguo recurrente")).toEqual(1);
+  });
   
 });
