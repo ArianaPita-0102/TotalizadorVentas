@@ -924,9 +924,31 @@
     "testId": 45
   },
   {
-    "commitId": "HEAD",
+    "commitId": "f774e9bf143ca4672d1a52015375aebb128eb039",
     "commitName": "feat: agrega lista de tipos de cliente",
     "commitTimestamp": 1772937579999,
     "testId": 46
+  },
+  {
+    "numPassedTests": 46,
+    "failedTests": 1,
+    "numTotalTests": 47,
+    "timestamp": 1772937705765,
+    "success": false,
+    "testId": 47
+  },
+  {
+    "numPassedTests": 47,
+    "failedTests": 0,
+    "numTotalTests": 47,
+    "timestamp": 1772937743047,
+    "success": true,
+    "testId": 47
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: muestra descuento de envio 0% para cliente normal",
+    "commitTimestamp": 1772937853625,
+    "testId": 47
   }
 ]

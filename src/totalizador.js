@@ -106,7 +106,11 @@ const totalizador = {
   obtenerCostoEnvioTotal(cantidad, peso) {
     const costoUnidad = totalizador.obtenerCostoEnvioPorUnidad(peso);
     return cantidad * costoUnidad;
-  }
+  },
+
+  obtenerDescuentoEnvioCliente(tipoCliente) {
+  if (tipoCliente === "normal") return 0;
+}
 }
 
 export default totalizador;

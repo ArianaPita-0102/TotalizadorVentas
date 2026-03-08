@@ -874,12 +874,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "f774e9bf143ca4672d1a52015375aebb128eb039",
     "author": "ArianaPita-0102",
     "commit": {
       "date": "2026-03-08T02:39:39.000Z",
       "message": "feat: agrega lista de tipos de cliente",
-      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/f774e9bf143ca4672d1a52015375aebb128eb039"
     },
     "stats": {
       "total": 13,
@@ -889,6 +889,25 @@
     },
     "coverage": 100,
     "test_count": 46,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "ArianaPita-0102",
+    "commit": {
+      "date": "2026-03-08T02:44:13.000Z",
+      "message": "feat: muestra descuento de envio 0% para cliente normal",
+      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 19,
+      "additions": 17,
+      "deletions": 2,
+      "date": "2026-03-08"
+    },
+    "coverage": 100,
+    "test_count": 47,
     "failed_tests": 0,
     "conclusion": "success"
   }

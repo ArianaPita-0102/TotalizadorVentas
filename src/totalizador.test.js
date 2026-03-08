@@ -181,5 +181,9 @@ describe("Totalizador", () => {
   it("deberia mostrar el costo de envio total (cantidad × costo de envio por unidad)", () => {
     expect(totalizador.obtenerCostoEnvioTotal(5, 15)).toEqual(17.5);
   });
+
+  it("cliente normal deberia tener descuento de envio 0%", () => {
+    expect(totalizador.obtenerDescuentoEnvioCliente("normal")).toEqual(0);
+  });
   
 });
