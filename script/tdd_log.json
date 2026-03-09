@@ -1246,9 +1246,23 @@
     "testId": 60
   },
   {
-    "commitId": "HEAD",
+    "commitId": "2fbbd4f1c1a25df595f9c0e1be8c8a8daa28d396",
     "commitName": "Refactor: eliminar cálculos duplicados en el Presenter",
     "commitTimestamp": 1773022450709,
     "testId": 61
+  },
+  {
+    "numPassedTests": 54,
+    "failedTests": 0,
+    "numTotalTests": 54,
+    "timestamp": 1773022883040,
+    "success": true,
+    "testId": 62
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: funcion para redondear a dos decimales",
+    "commitTimestamp": 1773022902184,
+    "testId": 62
   }
 ]

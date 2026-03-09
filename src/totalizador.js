@@ -1,3 +1,7 @@
+function redondear(valor) {
+  return Number(valor.toFixed(2));
+}
+
 const totalizador = {
   mostrarCantidad(cantidad) {
     return cantidad;

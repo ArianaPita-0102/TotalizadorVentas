@@ -1159,12 +1159,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "2fbbd4f1c1a25df595f9c0e1be8c8a8daa28d396",
     "author": "User",
     "commit": {
       "date": "2026-03-09T02:14:09.000Z",
       "message": "Refactor: eliminar cálculos duplicados en el Presenter",
-      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/2fbbd4f1c1a25df595f9c0e1be8c8a8daa28d396"
     },
     "stats": {
       "total": 12,
@@ -1173,6 +1173,25 @@
       "date": "2026-03-09"
     },
     "coverage": 100,
+    "test_count": 54,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "ArianaPita-0102",
+    "commit": {
+      "date": "2026-03-09T02:21:42.000Z",
+      "message": "feat: funcion para redondear a dos decimales",
+      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 4,
+      "additions": 4,
+      "deletions": 0,
+      "date": "2026-03-09"
+    },
+    "coverage": 98.68,
     "test_count": 54,
     "failed_tests": 0,
     "conclusion": "success"
