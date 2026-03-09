@@ -1228,9 +1228,15 @@
     "testId": 58
   },
   {
-    "commitId": "HEAD",
+    "commitId": "576a7f31eb741f64b6cbfe5341f8b4f7c3a5ce9d",
     "commitName": "refactor: centralizar cálculos de impuestos, descuentos y envío en totalizador",
     "commitTimestamp": 1773019274341,
     "testId": 58
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "Refactor: formatear los valores monetarios con $ en el Presenter",
+    "commitTimestamp": 1773021533489,
+    "testId": 59
   }
 ]

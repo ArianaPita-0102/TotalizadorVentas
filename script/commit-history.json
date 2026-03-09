@@ -1102,17 +1102,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "576a7f31eb741f64b6cbfe5341f8b4f7c3a5ce9d",
     "author": "ArianaPita-0102",
     "commit": {
       "date": "2026-03-09T01:21:14.000Z",
       "message": "refactor: centralizar cálculos de impuestos, descuentos y envío en totalizador",
-      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/576a7f31eb741f64b6cbfe5341f8b4f7c3a5ce9d"
     },
     "stats": {
       "total": 105,
       "additions": 66,
       "deletions": 39,
+      "date": "2026-03-09"
+    },
+    "coverage": 100,
+    "test_count": 54,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "User",
+    "commit": {
+      "date": "2026-03-09T01:58:52.000Z",
+      "message": "Refactor: formatear los valores monetarios con $ en el Presenter",
+      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 20,
+      "additions": 10,
+      "deletions": 10,
       "date": "2026-03-09"
     },
     "coverage": 100,
