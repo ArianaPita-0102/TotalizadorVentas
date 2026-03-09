@@ -25,7 +25,7 @@ boton.addEventListener("click", () => {
   const descuentoEspecial = totalizador.obtenerDescuentoEspecialCliente(tipoCliente, categoria, precioNeto);
   const descuentoAdicional = totalizador.obtenerDescuentoAdicionalCategoria(categoria);
 
-  const impuestoEstado = precioNeto * impuesto / 100;
+  const impuestoEstado = totalizador.calcularMontoImpuesto(precioNeto, estado);
   const impuestoCategoria = precioNeto * impuestoAdicional / 100;
 
   const descuentoCategoria = precioNeto * descuentoAdicional / 100;

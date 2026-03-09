@@ -132,6 +132,11 @@ const totalizador = {
     }
 
     return 0;
+  },
+
+  calcularMontoImpuesto(precioNeto, estado) {
+    const porcentaje = totalizador.mostrarImpuestoEstado(estado);
+    return precioNeto * porcentaje / 100;
   }
 }
 

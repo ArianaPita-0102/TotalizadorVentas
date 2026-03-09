@@ -1138,9 +1138,39 @@
     "testId": 54
   },
   {
-    "commitId": "HEAD",
+    "commitId": "7d1cc9ee3161aa5450784a0d6ee4d7ece5c3ac17",
     "commitName": "feat: mejorar interfaz con layout de dos columnas y estilos CSS para entradas y resultados",
     "commitTimestamp": 1773014944898,
     "testId": 55
+  },
+  {
+    "numPassedTests": 53,
+    "failedTests": 0,
+    "numTotalTests": 53,
+    "timestamp": 1773016412437,
+    "success": true,
+    "testId": 56
+  },
+  {
+    "numPassedTests": 53,
+    "failedTests": 0,
+    "numTotalTests": 53,
+    "timestamp": 1773016591893,
+    "success": true,
+    "testId": 56
+  },
+  {
+    "numPassedTests": 53,
+    "failedTests": 0,
+    "numTotalTests": 53,
+    "timestamp": 1773016610033,
+    "success": true,
+    "testId": 56
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "Refactor: mover el cálculo del impuesto al Totalizador",
+    "commitTimestamp": 1773016734458,
+    "testId": 56
   }
 ]

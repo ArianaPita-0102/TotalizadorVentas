@@ -209,4 +209,10 @@ describe("Totalizador", () => {
   it("deberia aplicar descuento de 200 si cliente es especial, categoria electronicos y precio neto mayor a 7000", () => {
     expect(totalizador.obtenerDescuentoEspecialCliente("especial", "Electrónicos", 8000)).toEqual(200);
   });
+
+  //refactor
+  it("deberia calcular el monto del impuesto para CA", () => {
+    expect(totalizador.calcularMontoImpuesto(50, "CA")).toEqual(4.125);
+});
+
 });

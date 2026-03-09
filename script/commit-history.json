@@ -1045,12 +1045,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "7d1cc9ee3161aa5450784a0d6ee4d7ece5c3ac17",
     "author": "ArianaPita-0102",
     "commit": {
       "date": "2026-03-09T00:09:04.000Z",
       "message": "feat: mejorar interfaz con layout de dos columnas y estilos CSS para entradas y resultados",
-      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/7d1cc9ee3161aa5450784a0d6ee4d7ece5c3ac17"
     },
     "stats": {
       "total": 402,
@@ -1060,6 +1060,25 @@
     },
     "coverage": 98.21,
     "test_count": 53,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "User",
+    "commit": {
+      "date": "2026-03-09T00:38:53.000Z",
+      "message": "Refactor: mover el cálculo del impuesto al Totalizador",
+      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 13,
+      "additions": 12,
+      "deletions": 1,
+      "date": "2026-03-09"
+    },
+    "coverage": 98.28,
+    "test_count": 54,
     "failed_tests": 0,
     "conclusion": "success"
   }
