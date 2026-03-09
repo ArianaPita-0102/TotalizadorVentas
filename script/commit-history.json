@@ -1026,18 +1026,37 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "2913af13df15357b548d66232331cae9fdca133f",
     "author": "ArianaPita-0102",
     "commit": {
       "date": "2026-03-08T23:48:57.000Z",
       "message": "feat: calculo total de pago con impuestos y descuentos calculados",
-      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/2913af13df15357b548d66232331cae9fdca133f"
     },
     "stats": {
       "total": 25,
       "additions": 18,
       "deletions": 7,
       "date": "2026-03-08"
+    },
+    "coverage": 98.21,
+    "test_count": 53,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "ArianaPita-0102",
+    "commit": {
+      "date": "2026-03-09T00:09:04.000Z",
+      "message": "feat: mejorar interfaz con layout de dos columnas y estilos CSS para entradas y resultados",
+      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 402,
+      "additions": 284,
+      "deletions": 118,
+      "date": "2026-03-09"
     },
     "coverage": 98.21,
     "test_count": 53,

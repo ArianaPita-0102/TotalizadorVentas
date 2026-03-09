@@ -3,134 +3,164 @@
 <head>
   <meta charset="UTF-8">
   <title>Totalizador</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 
-<h1>Totalizador</h1>
+<header>
+  <h1>Totalizador de Ventas</h1>
+  <p>Calculadora de precio total con descuentos, impuestos y envío</p>
+</header>
+
+<main>
+
+<main>
+
+<div class="layout">
+
+<section class="card entrada">
+
+<h2>Datos de la compra</h2>
 
 <table>
+<tr>
+<td>Cantidad</td>
+<td><input type="number" id="cantidad"></td>
+</tr>
 
-  <tr>
-    <td>Cantidad</td>
-    <td>
-      <input type="number" id="cantidad">
-    </td>
-  </tr>
+<tr>
+<td>Precio por item</td>
+<td><input type="number" id="precio"></td>
+</tr>
 
-  <tr>
-    <td>Precio</td>
-    <td>
-      <input type="number" id="precio">
-    </td>
-  </tr>
+<tr>
+<td>Estado</td>
+<td>
+<select id="estado">
+<option value="CA">CA</option>
+<option value="TX">TX</option>
+<option value="NV">NV</option>
+<option value="UT">UT</option>
+<option value="AL">AL</option>
+</select>
+</td>
+</tr>
 
-  <tr>
-    <td>Código de estado</td>
-    <td>
-      <select id="estado">
-        <option value="CA">CA</option>
-        <option value="TX">TX</option>
-        <option value="NV">NV</option>
-        <option value="UT">UT</option>
-        <option value="AL">AL</option>
-      </select>
-    </td>
-  </tr>
+<tr>
+<td>Categoría</td>
+<td>
+<select id="categoria">
+<option value="Varios">Varios</option>
+<option value="Alimentos">Alimentos</option>
+<option value="Bebidas alcohólicas">Bebidas alcohólicas</option>
+<option value="Material de escritorio">Material de escritorio</option>
+<option value="Muebles">Muebles</option>
+<option value="Electrónicos">Electrónicos</option>
+<option value="Vestimenta">Vestimenta</option>
+</select>
+</td>
+</tr>
 
-  <tr>
-    <td>Categoría de producto</td>
-    <td>
-      <select id="categoria">
-        <option value="Varios">Varios</option>
-        <option value="Alimentos">Alimentos</option>
-        <option value="Bebidas alcohólicas">Bebidas alcohólicas</option>
-        <option value="Material de escritorio">Material de escritorio</option>
-        <option value="Muebles">Muebles</option>
-        <option value="Electrónicos">Electrónicos</option>
-        <option value="Vestimenta">Vestimenta</option>
-      </select>
-    </td>
-  </tr>
+<tr>
+<td>Peso volumétrico</td>
+<td><input type="number" id="pesoVolumetrico"></td>
+</tr>
 
-  <tr>
-    <td>Peso volumétrico por unidad</td>
-    <td>
-      <input type="number" id="pesoVolumetrico">
-    </td>
-  </tr> 
+<tr>
+<td>Tipo cliente</td>
+<td>
+<select id="tipoCliente">
+<option value="normal">Normal</option>
+<option value="recurrente">Recurrente</option>
+<option value="antiguo recurrente">Antiguo Recurrente</option>
+<option value="especial">Especial</option>
+</select>
+</td>
+</tr>
 
-  <tr>
-    <td>Tipo de Cliente</td>
-    <td>
-      <select id="tipoCliente">
-        <option value="normal">Normal</option>
-        <option value="recurrente">Recurrente</option>
-        <option value="antiguo recurrente">Antiguo Recurrente</option>
-        <option value="especial">Especial</option>
-      </select>
-    </td>
-  </tr>
-
-  <tr>
-    <td></td>
-    <td>
-      <button id="totalizar">Totalizar</button>
-    </td>
-  </tr>
-
-  <tr>
-    <td>Precio Neto</td>
-    <td id="resultadoNeto"></td>
-  </tr>
-
-  <tr>
-    <td id="textoDescuento"></td>
-    <td id="resultadoDescuento"></td>
-  </tr>
-
-  <tr>
-    <td id="textoImpuesto"></td>
-    <td id="resultadoImpuesto"></td>
-  </tr>
-
-
-  <tr>
-    <td id="textoImpuestoAdicional"></td>
-    <td id="resultadoImpuestoAdicional"></td>
-  </tr>
-
-  <tr>
-    <td id="textoDescuentoAdicional"></td>
-    <td id="resultadoDescuentoAdicional"></td>
-  </tr>
-
-  <tr>
-    <td>Costo de envío por unidad</td>
-    <td id="resultadoEnvioUnidad"></td>
-  </tr>
-
-  <tr>
-    <td>Descuento de envío</td>
-    <td id="resultadoDescuentoEnvio"></td>
-  </tr>
-
-  <tr>
-    <td>Costo de envío total</td>
-    <td id="resultadoEnvio"></td>
-  </tr>
-
-  <tr>
-    <td>Descuento especial cliente</td>
-    <td id="resultadoDescuentoEspecial"></td>
-  </tr>
-
-  <tr>
-  <td>Precio total (descuento e impuesto)</td>
-  <td id="resultadoTotal"></td>
+<tr>
+<td></td>
+<td><button id="totalizar">Calcular</button></td>
 </tr>
 
 </table>
+
+</section>
+
+
+
+<section class="card resultados">
+
+<h2>Resumen</h2>
+
+<table>
+
+<tr>
+<td>Precio Neto</td>
+<td id="resultadoNeto"></td>
+</tr>
+
+<tr>
+<td id="textoDescuento"></td>
+<td id="resultadoDescuento"></td>
+</tr>
+
+<tr>
+<td id="textoImpuesto"></td>
+<td id="resultadoImpuesto"></td>
+</tr>
+
+<tr>
+<td id="textoImpuestoAdicional"></td>
+<td id="resultadoImpuestoAdicional"></td>
+</tr>
+
+<tr>
+<td id="textoDescuentoAdicional"></td>
+<td id="resultadoDescuentoAdicional"></td>
+</tr>
+
+<tr>
+<td>Costo envío por unidad</td>
+<td id="resultadoEnvioUnidad"></td>
+</tr>
+
+<tr>
+<td>Descuento envío</td>
+<td id="resultadoDescuentoEnvio"></td>
+</tr>
+
+<tr>
+<td>Costo envío total</td>
+<td id="resultadoEnvio"></td>
+</tr>
+
+<tr>
+<td>Descuento especial</td>
+<td id="resultadoDescuentoEspecial"></td>
+</tr>
+
+<tr class="total">
+<td>TOTAL</td>
+<td id="resultadoTotal"></td>
+</tr>
+
+</table>
+
+</section>
+
+</div>
+
+</main>
+
+</main>
+
+<footer>
+<p>Proyecto Ingeniería de Software - Totalizador</p>
+<p>Oriana Flores Ballon</p>
+<p>Ariana Aylen Pita Vargas</p>
+</footer>
 
 <script type="module" src="./src/presenter.js"></script>
 

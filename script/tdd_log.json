@@ -1132,9 +1132,15 @@
     "testId": 53
   },
   {
-    "commitId": "HEAD",
+    "commitId": "2913af13df15357b548d66232331cae9fdca133f",
     "commitName": "feat: calculo total de pago con impuestos y descuentos calculados",
     "commitTimestamp": 1773013737788,
     "testId": 54
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: mejorar interfaz con layout de dos columnas y estilos CSS para entradas y resultados",
+    "commitTimestamp": 1773014944898,
+    "testId": 55
   }
 ]
