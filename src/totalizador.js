@@ -146,6 +146,8 @@ const totalizador = {
 
   calcularTotalCompra(cantidad, precio, estado, categoria, peso, tipoCliente) {
     const precioNeto = totalizador.mostrarPrecioNeto(cantidad, precio);
+    const porcentajeDescuento = totalizador.obtenerPorcentajeDescuento(precioNeto);
+    const impuesto = totalizador.mostrarImpuestoEstado(estado);
     const impuestoEstado = totalizador.calcularMontoImpuesto(precioNeto, estado);
     const impuestoAdicional = totalizador.obtenerImpuestoAdicionalCategoria(categoria);
     const impuestoCategoria = precioNeto * impuestoAdicional / 100;
@@ -171,6 +173,8 @@ const totalizador = {
       impuestoAdicional,
       impuestoCategoria,
       descuento,
+      porcentajeDescuento,
+      impuesto,
       descuentoAdicional,
       descuentoCategoria,
       descuentoEspecial,

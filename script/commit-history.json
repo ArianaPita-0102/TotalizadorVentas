@@ -1140,17 +1140,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "9dc815e4e4ec69edd294c2a9f48f735f02d2dc0b",
     "author": "User",
     "commit": {
       "date": "2026-03-09T02:04:26.000Z",
       "message": "Refactor: mejorar claridad del código en el Presenter",
-      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/9dc815e4e4ec69edd294c2a9f48f735f02d2dc0b"
     },
     "stats": {
       "total": 39,
       "additions": 18,
       "deletions": 21,
+      "date": "2026-03-09"
+    },
+    "coverage": 100,
+    "test_count": 54,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "User",
+    "commit": {
+      "date": "2026-03-09T02:14:09.000Z",
+      "message": "Refactor: eliminar cálculos duplicados en el Presenter",
+      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 12,
+      "additions": 7,
+      "deletions": 5,
       "date": "2026-03-09"
     },
     "coverage": 100,

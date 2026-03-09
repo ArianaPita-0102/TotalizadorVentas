@@ -14,14 +14,12 @@ boton.addEventListener("click", () => {
 
   // Calcular resultado
   const resultado = totalizador.calcularTotalCompra(cantidad, precio, estado, categoria, peso, tipoCliente);
-  const impuesto = totalizador.mostrarImpuestoEstado(estado);
-  const porcentajeDescuento = totalizador.obtenerPorcentajeDescuento(resultado.precioNeto);
-
+ 
   // Mostrar resultados
   document.querySelector("#resultadoNeto").textContent = formatearMoneda(resultado.precioNeto);
-  document.querySelector("#textoDescuento").textContent = "Descuento (" + porcentajeDescuento + "%)";
+  document.querySelector("#textoDescuento").textContent = "Descuento (" + resultado.porcentajeDescuento + "%)";
   document.querySelector("#resultadoDescuento").textContent = formatearMoneda(resultado.descuento);
-  document.querySelector("#textoImpuesto").textContent = "Impuesto para " + estado + " (%" + impuesto + ")";
+  document.querySelector("#textoImpuesto").textContent = "Impuesto para " + estado + " (%" + resultado.impuesto + ")";
   document.querySelector("#resultadoImpuesto").textContent = formatearMoneda(resultado.impuestoEstado);
   document.querySelector("#textoImpuestoAdicional").textContent = "Impuesto adicional para " + categoria + " (%" + resultado.impuestoAdicional + ")";
   document.querySelector("#resultadoImpuestoAdicional").textContent = formatearMoneda(resultado.impuestoCategoria);

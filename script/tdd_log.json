@@ -1240,9 +1240,15 @@
     "testId": 59
   },
   {
-    "commitId": "HEAD",
+    "commitId": "9dc815e4e4ec69edd294c2a9f48f735f02d2dc0b",
     "commitName": "Refactor: mejorar claridad del código en el Presenter",
     "commitTimestamp": 1773021867957,
     "testId": 60
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "Refactor: eliminar cálculos duplicados en el Presenter",
+    "commitTimestamp": 1773022450709,
+    "testId": 61
   }
 ]
