@@ -1234,9 +1234,15 @@
     "testId": 58
   },
   {
-    "commitId": "HEAD",
+    "commitId": "d4fe13bf42f89a72d35396c0d0507ba9a48bc351",
     "commitName": "Refactor: formatear los valores monetarios con $ en el Presenter",
     "commitTimestamp": 1773021533489,
     "testId": 59
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "Refactor: mejorar claridad del código en el Presenter",
+    "commitTimestamp": 1773021867957,
+    "testId": 60
   }
 ]
