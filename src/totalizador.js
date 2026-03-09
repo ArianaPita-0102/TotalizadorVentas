@@ -172,20 +172,18 @@ const totalizador = {
       costoEnvioFinal;
 
     return {
-      precioNeto,
-      impuestoEstado,
+      precioNeto: redondear(precioNeto),
+      impuestoEstado: redondear(impuestoEstado),
       impuestoAdicional,
-      impuestoCategoria,
-      descuento,
-      porcentajeDescuento,
-      impuesto,
+      impuestoCategoria: redondear(impuestoCategoria),
+      descuento: redondear(descuento),
       descuentoAdicional,
-      descuentoCategoria,
-      descuentoEspecial,
-      costoEnvioUnidad,
+      descuentoCategoria: redondear(descuentoCategoria),
+      descuentoEspecial: redondear(descuentoEspecial),
+      costoEnvioUnidad: redondear(costoEnvioUnidad),
       descuentoEnvio,
-      costoEnvioFinal,
-      totalFinal
+      costoEnvioFinal: redondear(costoEnvioFinal),
+      totalFinal: redondear(totalFinal)
     };
   }
 }

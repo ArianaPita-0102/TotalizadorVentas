@@ -221,7 +221,7 @@ describe("Totalizador", () => {
       "normal"
     );
 
-    expect(resultado.totalFinal).toEqual(70.625);
+    expect(resultado.totalFinal).toEqual(70.63);
   });
 
 });

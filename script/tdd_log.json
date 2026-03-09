@@ -1260,9 +1260,31 @@
     "testId": 62
   },
   {
-    "commitId": "HEAD",
+    "commitId": "82fe9e164bb55cda2c2484bd45447f071ba27ac5",
     "commitName": "feat: funcion para redondear a dos decimales",
     "commitTimestamp": 1773022902184,
     "testId": 62
+  },
+  {
+    "numPassedTests": 53,
+    "failedTests": 1,
+    "numTotalTests": 54,
+    "timestamp": 1773022948968,
+    "success": false,
+    "testId": 63
+  },
+  {
+    "numPassedTests": 54,
+    "failedTests": 0,
+    "numTotalTests": 54,
+    "timestamp": 1773022957301,
+    "success": true,
+    "testId": 63
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor: redondear valores monetarios a 2 decimales en resultados",
+    "commitTimestamp": 1773022985426,
+    "testId": 63
   }
 ]

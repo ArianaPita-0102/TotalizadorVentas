@@ -1178,12 +1178,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "82fe9e164bb55cda2c2484bd45447f071ba27ac5",
     "author": "ArianaPita-0102",
     "commit": {
       "date": "2026-03-09T02:21:42.000Z",
       "message": "feat: funcion para redondear a dos decimales",
-      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/82fe9e164bb55cda2c2484bd45447f071ba27ac5"
     },
     "stats": {
       "total": 4,
@@ -1192,6 +1192,25 @@
       "date": "2026-03-09"
     },
     "coverage": 98.68,
+    "test_count": 54,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "ArianaPita-0102",
+    "commit": {
+      "date": "2026-03-09T02:23:05.000Z",
+      "message": "refactor: redondear valores monetarios a 2 decimales en resultados",
+      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 22,
+      "additions": 10,
+      "deletions": 12,
+      "date": "2026-03-09"
+    },
+    "coverage": 100,
     "test_count": 54,
     "failed_tests": 0,
     "conclusion": "success"
