@@ -17,7 +17,7 @@ boton.addEventListener("click", () => {
  
   // Mostrar resultados
   document.querySelector("#resultadoNeto").textContent = formatearMoneda(resultado.precioNeto);
-  document.querySelector("#textoDescuento").textContent = "Descuento (" + resultado.porcentajeDescuento + "%)";
+  document.querySelector("#textoDescuento").textContent = "Descuento por cantidad de compra (" + resultado.porcentajeDescuento + "%)";
   document.querySelector("#resultadoDescuento").textContent = formatearMoneda(resultado.descuento);
   document.querySelector("#textoImpuesto").textContent = "Impuesto para " + estado + " (%" + resultado.impuesto + ")";
   document.querySelector("#resultadoImpuesto").textContent = formatearMoneda(resultado.impuestoEstado);

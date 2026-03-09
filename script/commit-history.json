@@ -1197,17 +1197,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "652f95352aee262a18c3ca8845fbc22d9e3b1bfb",
     "author": "ArianaPita-0102",
     "commit": {
       "date": "2026-03-09T02:23:05.000Z",
       "message": "refactor: redondear valores monetarios a 2 decimales en resultados",
-      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/652f95352aee262a18c3ca8845fbc22d9e3b1bfb"
     },
     "stats": {
       "total": 22,
       "additions": 10,
       "deletions": 12,
+      "date": "2026-03-09"
+    },
+    "coverage": 100,
+    "test_count": 54,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "ArianaPita-0102",
+    "commit": {
+      "date": "2026-03-09T02:38:30.000Z",
+      "message": "Fix: agregar porcentajes faltantes y redondeo de valores monetarios",
+      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 276,
+      "additions": 137,
+      "deletions": 139,
       "date": "2026-03-09"
     },
     "coverage": 100,

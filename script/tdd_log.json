@@ -1282,9 +1282,15 @@
     "testId": 63
   },
   {
-    "commitId": "HEAD",
+    "commitId": "652f95352aee262a18c3ca8845fbc22d9e3b1bfb",
     "commitName": "refactor: redondear valores monetarios a 2 decimales en resultados",
     "commitTimestamp": 1773022985426,
     "testId": 63
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "Fix: agregar porcentajes faltantes y redondeo de valores monetarios",
+    "commitTimestamp": 1773023911001,
+    "testId": 64
   }
 ]

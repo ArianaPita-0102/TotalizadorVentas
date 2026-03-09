@@ -173,9 +173,11 @@ const totalizador = {
 
     return {
       precioNeto: redondear(precioNeto),
+      impuesto,
       impuestoEstado: redondear(impuestoEstado),
       impuestoAdicional,
       impuestoCategoria: redondear(impuestoCategoria),
+      porcentajeDescuento,
       descuento: redondear(descuento),
       descuentoAdicional,
       descuentoCategoria: redondear(descuentoCategoria),
