@@ -137,6 +137,11 @@ const totalizador = {
   calcularMontoImpuesto(precioNeto, estado) {
     const porcentaje = totalizador.mostrarImpuestoEstado(estado);
     return precioNeto * porcentaje / 100;
+  },
+
+  calcularMontoDescuento(precioNeto) {
+    const porcentaje = totalizador.obtenerPorcentajeDescuento(precioNeto);
+    return precioNeto * porcentaje / 100;
   }
 }
 

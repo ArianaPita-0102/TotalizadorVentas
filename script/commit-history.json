@@ -1064,12 +1064,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "eaa5e879b40d5bfefa363d8f9ac0b5259fddb2b5",
     "author": "User",
     "commit": {
       "date": "2026-03-09T00:38:53.000Z",
       "message": "Refactor: mover el cálculo del impuesto al Totalizador",
-      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/eaa5e879b40d5bfefa363d8f9ac0b5259fddb2b5"
     },
     "stats": {
       "total": 13,
@@ -1079,6 +1079,25 @@
     },
     "coverage": 98.28,
     "test_count": 54,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "User",
+    "commit": {
+      "date": "2026-03-09T00:45:04.000Z",
+      "message": "Refactor: mover el cálculo del descuento al Totalizador",
+      "url": "https://github.com/ArianaPita-0102/TotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 7,
+      "deletions": 7,
+      "date": "2026-03-09"
+    },
+    "coverage": 91.67,
+    "test_count": 53,
     "failed_tests": 0,
     "conclusion": "success"
   }

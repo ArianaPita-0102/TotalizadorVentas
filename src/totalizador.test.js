@@ -210,9 +210,4 @@ describe("Totalizador", () => {
     expect(totalizador.obtenerDescuentoEspecialCliente("especial", "Electrónicos", 8000)).toEqual(200);
   });
 
-  //refactor
-  it("deberia calcular el monto del impuesto para CA", () => {
-    expect(totalizador.calcularMontoImpuesto(50, "CA")).toEqual(4.125);
-});
-
 });

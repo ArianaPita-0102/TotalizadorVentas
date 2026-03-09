@@ -1168,9 +1168,15 @@
     "testId": 56
   },
   {
-    "commitId": "HEAD",
+    "commitId": "eaa5e879b40d5bfefa363d8f9ac0b5259fddb2b5",
     "commitName": "Refactor: mover el cálculo del impuesto al Totalizador",
     "commitTimestamp": 1773016734458,
     "testId": 56
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "Refactor: mover el cálculo del descuento al Totalizador",
+    "commitTimestamp": 1773017105251,
+    "testId": 57
   }
 ]

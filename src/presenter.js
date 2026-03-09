@@ -12,13 +12,13 @@ boton.addEventListener("click", () => {
 
   const precioNeto = totalizador.mostrarPrecioNeto(cantidad, precio);
   const impuesto = totalizador.mostrarImpuestoEstado(estado);
-  const porcentajeDescuento =  totalizador.obtenerPorcentajeDescuento(precioNeto);
+  const porcentajeDescuento = totalizador.obtenerPorcentajeDescuento(precioNeto);
   const impuestoAdicional = totalizador.obtenerImpuestoAdicionalCategoria(categoria);
   //const costoEnvioTotal = totalizador.obtenerCostoEnvioTotal(cantidad, peso);
 
   const costoEnvioUnidad = totalizador.obtenerCostoEnvioPorUnidad(peso);
 
-  const descuento = (precioNeto * porcentajeDescuento) / 100;
+ const descuento = totalizador.calcularMontoDescuento(precioNeto);
   const descuentoEnvio = totalizador.obtenerDescuentoEnvioCliente(tipoCliente);
   const costoEnvioFinal = totalizador.obtenerCostoEnvioFinal(cantidad, peso, tipoCliente);
 
