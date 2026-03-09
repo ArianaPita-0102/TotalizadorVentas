@@ -142,6 +142,43 @@ const totalizador = {
   calcularMontoDescuento(precioNeto) {
     const porcentaje = totalizador.obtenerPorcentajeDescuento(precioNeto);
     return precioNeto * porcentaje / 100;
+  },
+
+  calcularTotalCompra(cantidad, precio, estado, categoria, peso, tipoCliente) {
+    const precioNeto = totalizador.mostrarPrecioNeto(cantidad, precio);
+    const impuestoEstado = totalizador.calcularMontoImpuesto(precioNeto, estado);
+    const impuestoAdicional = totalizador.obtenerImpuestoAdicionalCategoria(categoria);
+    const impuestoCategoria = precioNeto * impuestoAdicional / 100;
+    const descuento = totalizador.calcularMontoDescuento(precioNeto);
+    const descuentoAdicional = totalizador.obtenerDescuentoAdicionalCategoria(categoria);
+    const descuentoCategoria = precioNeto * descuentoAdicional / 100;
+    const descuentoEspecial = totalizador.obtenerDescuentoEspecialCliente(tipoCliente, categoria, precioNeto);
+    const costoEnvioUnidad = totalizador.obtenerCostoEnvioPorUnidad(peso);
+    const descuentoEnvio = totalizador.obtenerDescuentoEnvioCliente(tipoCliente);
+    const costoEnvioFinal = totalizador.obtenerCostoEnvioFinal(cantidad, peso, tipoCliente);
+    const totalFinal =
+      precioNeto +
+      impuestoEstado +
+      impuestoCategoria -
+      descuento -
+      descuentoCategoria -
+      descuentoEspecial +
+      costoEnvioFinal;
+
+    return {
+      precioNeto,
+      impuestoEstado,
+      impuestoAdicional,
+      impuestoCategoria,
+      descuento,
+      descuentoAdicional,
+      descuentoCategoria,
+      descuentoEspecial,
+      costoEnvioUnidad,
+      descuentoEnvio,
+      costoEnvioFinal,
+      totalFinal
+    };
   }
 }
 

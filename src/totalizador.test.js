@@ -210,4 +210,18 @@ describe("Totalizador", () => {
     expect(totalizador.obtenerDescuentoEspecialCliente("especial", "Electrónicos", 8000)).toEqual(200);
   });
 
+
+  it("deberia calcular el total completo de la compra", () => {
+    const resultado = totalizador.calcularTotalCompra(
+      5,
+      10,
+      "CA",
+      "Alimentos",
+      15,
+      "normal"
+    );
+
+    expect(resultado.totalFinal).toEqual(70.625);
+  });
+
 });

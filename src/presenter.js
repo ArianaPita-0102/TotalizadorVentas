@@ -10,52 +10,28 @@ boton.addEventListener("click", () => {
   const peso = Number(document.querySelector("#pesoVolumetrico").value);
   const tipoCliente = document.querySelector("#tipoCliente").value;
 
-  const precioNeto = totalizador.mostrarPrecioNeto(cantidad, precio);
+  const resultado = totalizador.calcularTotalCompra(cantidad,precio,estado,categoria,peso,tipoCliente);
+
   const impuesto = totalizador.mostrarImpuestoEstado(estado);
-  const porcentajeDescuento = totalizador.obtenerPorcentajeDescuento(precioNeto);
-  const impuestoAdicional = totalizador.obtenerImpuestoAdicionalCategoria(categoria);
-  //const costoEnvioTotal = totalizador.obtenerCostoEnvioTotal(cantidad, peso);
-
-  const costoEnvioUnidad = totalizador.obtenerCostoEnvioPorUnidad(peso);
-
- const descuento = totalizador.calcularMontoDescuento(precioNeto);
-  const descuentoEnvio = totalizador.obtenerDescuentoEnvioCliente(tipoCliente);
-  const costoEnvioFinal = totalizador.obtenerCostoEnvioFinal(cantidad, peso, tipoCliente);
-
-  const descuentoEspecial = totalizador.obtenerDescuentoEspecialCliente(tipoCliente, categoria, precioNeto);
-  const descuentoAdicional = totalizador.obtenerDescuentoAdicionalCategoria(categoria);
-
-  const impuestoEstado = totalizador.calcularMontoImpuesto(precioNeto, estado);
-  const impuestoCategoria = precioNeto * impuestoAdicional / 100;
-
-  const descuentoCategoria = precioNeto * descuentoAdicional / 100;
-
-  const totalFinal = precioNeto + impuestoEstado + impuestoCategoria - descuento - descuentoCategoria - descuentoEspecial + costoEnvioFinal;
-  document.querySelector("#resultadoNeto").textContent = precioNeto;
+  const porcentajeDescuento = totalizador.obtenerPorcentajeDescuento(resultado.precioNeto);
+  document.querySelector("#resultadoNeto").textContent = resultado.precioNeto;
   document.querySelector("#textoImpuesto").textContent = "Impuesto para " + estado + " (%" + impuesto + ")";
   document.querySelector("#textoDescuento").textContent = "Descuento (" + porcentajeDescuento + "%)";
 
-  document.querySelector("#resultadoDescuento").textContent = descuento;
-  //document.querySelector("#resultadoImpuesto").textContent = precioNeto * impuesto / 100;
-  document.querySelector("#resultadoImpuesto").textContent = impuestoEstado;
+  document.querySelector("#resultadoDescuento").textContent = resultado.descuento;
+  document.querySelector("#resultadoImpuesto").textContent = resultado.impuestoEstado;
+  document.querySelector("#resultadoTotal").textContent = resultado.totalFinal;
 
-  //const totalConImpuesto = precioNeto + (precioNeto * impuesto / 100) - descuento;
-  //document.querySelector("#resultadoTotal").textContent = totalConImpuesto;
+  document.querySelector("#textoImpuestoAdicional").textContent = "Impuesto adicional para " + categoria + " (%" + resultado.impuestoAdicional + ")";
+  document.querySelector("#resultadoImpuestoAdicional").textContent = resultado.impuestoCategoria;
+  document.querySelector("#textoDescuentoAdicional").textContent = "Descuento adicional para " + categoria + " (%" + resultado.descuentoAdicional + ")";
+  document.querySelector("#resultadoDescuentoAdicional").textContent = resultado.descuentoCategoria;
+  document.querySelector("#resultadoEnvioUnidad").textContent = resultado.costoEnvioUnidad;
+  document.querySelector("#resultadoDescuentoEnvio").textContent = resultado.descuentoEnvio + "%";
 
-  document.querySelector("#resultadoTotal").textContent = totalFinal;
+  document.querySelector("#resultadoEnvio").textContent = resultado.costoEnvioFinal;
 
-  document.querySelector("#textoImpuestoAdicional").textContent = "Impuesto adicional para " + categoria + " (%" + impuestoAdicional + ")";
-  document.querySelector("#resultadoImpuestoAdicional").textContent = impuestoCategoria;
-  //document.querySelector("#resultadoImpuestoAdicional").textContent = precioNeto * impuestoAdicional / 100;
-  document.querySelector("#textoDescuentoAdicional").textContent = "Descuento adicional para " + categoria + " (%" + descuentoAdicional + ")";
-  //document.querySelector("#resultadoDescuentoAdicional").textContent = precioNeto * descuentoAdicional / 100;
-  document.querySelector("#resultadoDescuentoAdicional").textContent = descuentoCategoria;
-  document.querySelector("#resultadoEnvioUnidad").textContent = costoEnvioUnidad;
-  document.querySelector("#resultadoDescuentoEnvio").textContent = descuentoEnvio + "%";
-
-  document.querySelector("#resultadoEnvio").textContent = costoEnvioFinal;
-
-  document.querySelector("#resultadoDescuentoEspecial").textContent = descuentoEspecial;
+  document.querySelector("#resultadoDescuentoEspecial").textContent = resultado.descuentoEspecial;
 });
 
 

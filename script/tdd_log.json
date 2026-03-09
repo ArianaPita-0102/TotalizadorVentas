@@ -1174,9 +1174,63 @@
     "testId": 56
   },
   {
-    "commitId": "HEAD",
+    "commitId": "3d4262147ac8adb8b3075b882ee97977827f2a84",
     "commitName": "Refactor: mover el cálculo del descuento al Totalizador",
     "commitTimestamp": 1773017105251,
     "testId": 57
+  },
+  {
+    "numPassedTests": 53,
+    "failedTests": 0,
+    "numTotalTests": 53,
+    "timestamp": 1773018096346,
+    "success": true,
+    "testId": 58
+  },
+  {
+    "numPassedTests": 53,
+    "failedTests": 1,
+    "numTotalTests": 54,
+    "timestamp": 1773018361107,
+    "success": false,
+    "testId": 58
+  },
+  {
+    "numPassedTests": 54,
+    "failedTests": 0,
+    "numTotalTests": 54,
+    "timestamp": 1773018463461,
+    "success": true,
+    "testId": 58
+  },
+  {
+    "numPassedTests": 54,
+    "failedTests": 0,
+    "numTotalTests": 54,
+    "timestamp": 1773018630372,
+    "success": true,
+    "testId": 58
+  },
+  {
+    "numPassedTests": 54,
+    "failedTests": 0,
+    "numTotalTests": 54,
+    "timestamp": 1773019076015,
+    "success": true,
+    "testId": 58
+  },
+  {
+    "numPassedTests": 54,
+    "failedTests": 0,
+    "numTotalTests": 54,
+    "timestamp": 1773019135035,
+    "success": true,
+    "testId": 58
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor: centralizar cálculos de impuestos, descuentos y envío en totalizador",
+    "commitTimestamp": 1773019274341,
+    "testId": 58
   }
 ]
